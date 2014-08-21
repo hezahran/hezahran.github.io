@@ -1,1 +1,53 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Rochester);html,body{height:100%;width:100%;margin:0;padding:0;display:table}body{background-color:#019875;color:#ebebeb}body font{family:"Open Sans",sans-serif;size:12px}.logo{display:table-cell;vertical-align:middle;text-align:center;text-shadow:2px 2px 0 #049372}.logo i{font-size:10em}.logo h1{font-weight:300;font-family:"Open Sans",sans-serif;font-size:3em;margin-top:10px;margin-bottom:10px}.logo h1 span{border-top:4px solid #ebebeb;border-bottom:4px solid #ebebeb;color:white}.logo h2{font-weight:300;font-family:"Open Sans",sans-serif;font-size:1.2em;margin:0}.logo h2 em{font-style:normal;font-family:"Rochester",cursive}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Rochester);
+/*
+ HEZahran Web Logo CSS v1.0
+ ----------------------------------------------------------
+	 Copyright (c) 2014, HEZahran.com. All rights reserved.
+	 Coded and Authored with all the love in the world.
+	 Coder: Hashem Zahran @antikano || @hezahran
+ ------------------------------------------------------------*/
+/*-- custom fonts
+ ------------------------------------------------------------*/
+/*-- variables
+ ------------------------------------------------------------*/
+/*-- basic styles
+ ------------------------------------------------------------*/
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: table; }
+
+body {
+  background-color: #019875;
+  color: #ebebeb; }
+  body font {
+    family: "Open Sans", sans-serif;
+    size: 12px; }
+
+.logo {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  text-shadow: 2px 2px 0 #049372; }
+  .logo i {
+    font-size: 10em; }
+  .logo h1 {
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    .logo h1 span {
+      border-top: 4px solid #ebebeb;
+      border-bottom: 4px solid #ebebeb;
+      color: white; }
+  .logo h2 {
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    margin: 0; }
+    .logo h2 em {
+      font-style: normal;
+      font-family: "Rochester", cursive; }
