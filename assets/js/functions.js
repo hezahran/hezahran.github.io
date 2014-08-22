@@ -53,7 +53,7 @@ $(function() {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
       $.ajax({
-        url: "./contact.php",
+        url: "http://c7l.me/hezahran/contact.php",
         type: "POST",
         data: {name: name, email: email, message: message},
         cache: false,
