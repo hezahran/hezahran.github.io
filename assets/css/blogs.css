@@ -1,0 +1,22 @@
+/*
+ HEZahran Blogs CSS v1.0
+ ----------------------------------------------------------
+	 Copyright (c) 2014, HEZahran.com. All rights reserved.
+	 Coded and Authored with all the love in the world.
+	 Coder: Hashem Zahran @antikano || @hezahran
+ ------------------------------------------------------------*/
+/*-- variables
+ ------------------------------------------------------------*/
+/*-- mixins
+ ------------------------------------------------------------*/
+article img {
+  width: 100%;
+  padding: 4px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ecf0f1; }
+article pre {
+  background-color: whitesmoke;
+  border-color: #ecf0f1; }

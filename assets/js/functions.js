@@ -24,6 +24,7 @@ $('#main-navbar').singlePageNav({
 $('.more-info').singlePageNav({
   offset: $('#main-navbar').outerHeight(),
   updateHash: true,
+  filter: ':not(.external)',
 });
 
 //  ----------------------------------------------------------

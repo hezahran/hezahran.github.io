@@ -13,5 +13,6 @@
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3, jQuery
-    SCSS, SASS
+    SCSS, SASS, Jekyll, YAML, Markdown
     Hammer for Mac, Sublime Text 2, Adobe Illustrator CS6
+    

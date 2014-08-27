@@ -6,8 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
 	<!-- stylesheets -->
-	<link rel='stylesheet' href='assets/css/vendor/bootstrap.min.css'>
-	<link rel='stylesheet' href='assets/css/vendor/font-awesome.min.css'>
+	<link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='assets/css/font-awesome.min.css'>
 	<link rel='stylesheet' href='assets/css/style.css'>
 	
 	<!-- metadata -->
@@ -50,14 +50,15 @@
 	<meta name="twitter:image:src" content="assets/img/social/twitter-card-image-480x270.png">
 	<meta name="twitter:domain" content="hezahran.com">
 	
-	<!-- webmaster verifications -->
+	<!-- webmaster verification -->
 	<meta name="alexaVerifyID" content="udOS4pl5hGhI95xOdr-y8Mwz5eY"/>
+	
 	<!-- IE8 support of HTML5 elements &amp; media queries -->
 	<!--[if lt IE 9]>
-		<script src='assets/js/vendor/html5shiv.min.js'></script>
-		<script src='assets/js/vendor/respond.min.js'></script>
+		<script src='assets/js/html5shiv.min.js'></script>
+		<script src='assets/js/respond.min.js'></script>
 	<![endif]-->
-      
+	
 </head>
 <body data-spy="scroll" data-target="#main-navbar" data-offset="51">
 	<header id="site-header">
@@ -70,15 +71,17 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="#site-intro" class="navbar-brand" title="Freelance egyptian UX &amp; UI Developer Hashem Zahran">
-						<span class="hidden-xs"><i class="fa fa-fw fa-code"></i> Hashem Zahran</span><span class="visible-xs"><i class="fa fa-fw fa-code"></i> HZ</span>
-					</a>
+					<h1 class="brand-nav">
+            <a href="#site-intro" class="navbar-brand" title="Freelance egyptian UX &amp; UI Developer Hashem Zahran">
+              <span class="hidden-xs"><i class="fa fa-fw fa-code"></i> Hashem Zahran</span><span class="visible-xs"><i class="fa fa-fw fa-code"></i></span>
+            </a>
+          </h1>
 				</div><!-- /.navbar-header -->
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#site-portfolio"><i class="fa fa-fw fa-briefcase"></i> Portfolio</a></li>
 						<li><a href="#site-about"><i class="fa fa-fw fa-user"></i> About</a></li>
-						<li><a href="/blogs" class="external"><i class="fa fa-fw fa-bookmark"></i> Blogs</a></li>
+						<li><a href="blogs/" class="external"><i class="fa fa-fw fa-bookmark"></i> Blogs</a></li>
 						<li><a href="#site-contact"><i class="fa fa-fw fa-paper-plane"></i> Contact</a></li>
 					</ul><!-- /.nav navbar-nav navbar-right -->
 				</div><!-- /.navbar-collapse collapse -->
@@ -128,15 +131,22 @@
 				</div><!-- /.col-xs-12 -->
 			</div><!-- /.row -->
 			<div id="portfolio-grid" class="row">
+				<article class="col-md-4 col-xs-12 mix brand web">
+					<a href="portfolio/hecreek">
+						<img src="assets/img/portfolio/covers/hecreek.png" alt="HECreek" class="img-responsive img-rounded" />
+						<h4>HECreek</h4>
+					</a>
+					<p>August 2014</p>
+				</article><!-- /.col-md-4 col-xs-12 mix brand web -->
 				<article class="col-md-4 col-xs-12 mix web">
-					<a href="portfolio/saraelemary">
+					<a href="portfolio/sara-elemary">
 						<img src="assets/img/portfolio/covers/saraelemary.png" alt="Sara Elemary" class="img-responsive img-rounded" />
 						<h4>Sara Elemary</h4>
 					</a>
 					<p>July 2014</p>
 				</article><!-- /.col-md-4 col-xs-12 mix brand -->
 				<article class="col-md-4 col-xs-12 mix brand">
-					<a href="portfolio/slimsonsclub">
+					<a href="portfolio/slimsons-club">
 						<img src="assets/img/portfolio/covers/slimsonsclub.png" alt="Slimsons Club" class="img-responsive img-rounded" />
 						<h4>Slimsons Club</h4>
 					</a>
@@ -267,9 +277,7 @@
 					<p class="lead">Hello again, My name is <strong>Hashem Zahran</strong>, a passionate freelance Web &amp; Mobile <strong>UX/UI Developer</strong> based in the beautiful mediterranean city of Alexandria, Egypt.</p><!-- /.lead -->
 					<p>I'm always a visionary entrepreneur at heart with several involvements since my teen years like founding a computer hardware company at the age of 18. I've since co-founded &amp; operated multiple design agencies &amp; worked as a <strong>Front-End Developer</strong> for several technolgy companies as well.</p>
 					<p>I do wireframes, prototypes, mockups, &amp; layouts using my favorite design tool "Illustrator" and my favorite editor "Sublime Text". I love developing for WordPress with clear code and creative results. I also help brands in discovering new ways to interact with their customers via latest trends in social media marketing.</p>
-					<p>
-						<a href="./resume" class="btn btn-link-brand"><i class="fa fa-fw fa-download"></i> Check out my résumé</a>
-					</p><!-- /.more-info -->
+					<p><a href="assets/downloads/hashem_zahran-biography.pdf" class="btn btn-brand"><i class="fa fa-fw fa-download"></i> Download my bio</a> <a href="../resume/" class="btn btn-link-brand"><i class="fa fa-fw fa-download"></i> Check out my résumé</a></p>
 				</div><!-- /.col-md-8 col-xs-12 -->
 				<div class="col-md-4 col-xs-12 whitesmoke rounded">
 					<div id="testmonials-carousel" class="carousel slide" data-ride="carousel">
@@ -398,19 +406,21 @@
 					<a href="http://behance.net/hezahran" class="behance"><i class="fa fa-fw fa-2x fa-behance"></i></a>
 				</div><!-- /.col-xs-12 social -->
 				<div class="col-xs-12 copyright">
-					<i class="fa fa-fw fa-heart alizarin"></i> Made in Alexandria - &copy; 2014 <strong>Hashem Zahran</strong> - <i class="fa fa-fw fa-code-fork"></i> <a href="https://github.com/hezahran/he-source">See the Source</a>.
+					Made with <i class="fa fa-fw fa-heart alizarin"></i> Alexandria<br />
+					Copyright &copy; 2014 <strong>Hashem Zahran</strong>, All rights reserved<br />
+					Powered by <a href="http://jekyllrb.com">Jekyll</a> - Hosted by <a href="http://github.com">Github</a> - See the <i class="fa fa-fw fa-code-fork"></i> <a href="https://github.com/hezahran/he-source">Source</a>
 				</div><!-- /.col-xs-12 copyright -->
 			</div><!-- /.row text-center-->
 		</div><!-- /.container -->
 	</footer><!-- /#site-footer.midnightblue -->
 
 	<!-- javascripts -->
-	<script src='assets/js/vendor/jquery-2.1.1.min.js'></script>
-	<script src='assets/js/vendor/bootstrap.min.js'></script>
-	<script src='assets/js/vendor/jqBootstrapValidation.js'></script>
-	<script src='assets/js/vendor/jquery.stellar.min.js'></script>
-	<script src='assets/js/vendor/jquery.singlepagenav.min.js'></script>
-	<script src='assets/js/vendor/jquery.mixitup.min.js'></script>
+	<script src='assets/js/jquery-2.1.1.min.js'></script>
+	<script src='assets/js/bootstrap.min.js'></script>
+	<script src='assets/js/jqBootstrapValidation.js'></script>
+	<script src='assets/js/jquery.stellar.min.js'></script>
+	<script src='assets/js/jquery.singlepagenav.min.js'></script>
+	<script src='assets/js/jquery.mixitup.min.js'></script>
 	<script src='assets/js/functions.js'></script>
 	
 	<!-- google analytics -->

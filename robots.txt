@@ -1,2 +1,2 @@
-# robotstxt.org/
-User-agent: *
+user-agent: *
+Sitemap: http://hezahranc.com/sitemap.xml
