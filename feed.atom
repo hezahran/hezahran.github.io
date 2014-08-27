@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title></title>
-	<link href="http://localhost:4000/feed.atom" rel="self" />
-	<link href="http://localhost:4000/" />
-	<id>http://localhost:4000/</id>
+	<link href="http://hezahran.com/feed.atom" rel="self" />
+	<link href="http://hezahran.com/" />
+	<id>http://hezahran.com/</id>
 	<author>
 		<name>Hashem Zahran</name>
 	</author>
-	<updated>2014-08-27T15:43:00+03:00</updated>
+	<updated>2014-08-27T15:53:33+03:00</updated>
 
 	<entry>
 		<title type="text">HECreek, Day One</title>
-		<link href="http://localhost:4000/blogs/updates/hecreek/day-one/" />
-		<id>http://localhost:4000/blogs/updates/hecreek/day-one/</id>
+		<link href="http://hezahran.com/blogs/updates/hecreek/day-one/" />
+		<id>http://hezahran.com/blogs/updates/hecreek/day-one/</id>
 		<published>2014-08-25T15:30:43+03:00</published>
 		<updated>2014-08-25T15:30:43+03:00</updated>
 		<summary type="html">Everyday I like to explore new technologies and new tools that help me introduce the most creative and original ideas for my customers. As promised in my last post, I’ll blog my daily updates about HECreek development process in tutorial like posts and also as a documentation to my process… 
@@ -93,7 +93,7 @@
 
 &lt;p&gt;&lt;strong&gt;My DNS zone file now looks like this:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/attachments/hecreek_dnszone.png&quot; alt=&quot;DNS Zone file&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://hezahran.com/assets/attachments/hecreek_dnszone.png&quot; alt=&quot;DNS Zone file&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -118,7 +118,7 @@
 
 &lt;p&gt;Your demo site is now ready and it should look something like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/attachments/jekyll_welcome.png&quot; alt=&quot;Jekyll Demo Installation&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://hezahran.com/assets/attachments/jekyll_welcome.png&quot; alt=&quot;Jekyll Demo Installation&quot; /&gt;
 To stop the server simply press &lt;code&gt;Ctrl + C&lt;/code&gt; …&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -136,7 +136,7 @@ To stop the server simply press &lt;code&gt;Ctrl + C&lt;/code&gt; …&lt;/p&gt;
 
 &lt;p&gt;Now you are ready to push your site to your Github… Allow Github 10 mins to serve your new pages, then serve to your domain and you should be presented by your newly generated website &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/attachments/hecreek_welcome.png&quot; alt=&quot;HECreek Welcome&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://hezahran.com/assets/attachments/hecreek_welcome.png&quot; alt=&quot;HECreek Welcome&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -149,14 +149,14 @@ To stop the server simply press &lt;code&gt;Ctrl + C&lt;/code&gt; …&lt;/p&gt;
   &lt;li&gt;I opened up my &lt;a href=&quot;http://www.adobe.com/mena_en/products/illustrator.html&quot;&gt;Illustrator&lt;/a&gt; and started to play around with those fonts and place them together with my company name&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/attachments/hecreek_font_illustration.png&quot; alt=&quot;HECreek Font Illustration&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://hezahran.com/assets/attachments/hecreek_font_illustration.png&quot; alt=&quot;HECreek Font Illustration&quot; /&gt;
 - I selected &lt;a href=&quot;http://www.google.com/fonts/specimen/Exo+2&quot;&gt;EXO2&lt;/a&gt; webfont to my the official primary font for headers and &lt;a href=&quot;http://www.google.com/fonts/specimen/Roboto&quot;&gt;Roboto&lt;/a&gt; to be the secondary font for paragraphs form the selected fonts I downloaded.
 - Now it’s color time, I went over to &lt;a href=&quot;http://www.flatuicolorpicker.com&quot;&gt;Flat UI Color Picker&lt;/a&gt; and started testing different background colors for my logo, ended up with a sweet color palate&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/attachments/hecreek_colors.png&quot; alt=&quot;HECreek Colors&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://hezahran.com/assets/attachments/hecreek_colors.png&quot; alt=&quot;HECreek Colors&quot; /&gt;
 - Then let’s put all those elements together in our logo, and voila…&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/attachments/hecreek_logo.png&quot; alt=&quot;HECreek logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://hezahran.com/assets/attachments/hecreek_logo.png&quot; alt=&quot;HECreek logo&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -167,8 +167,8 @@ To stop the server simply press &lt;code&gt;Ctrl + C&lt;/code&gt; …&lt;/p&gt;
 
 	<entry>
 		<title type="text">HECreek, The story begins!</title>
-		<link href="http://localhost:4000/blogs/updates/hecreek/the-story-begins/" />
-		<id>http://localhost:4000/blogs/updates/hecreek/the-story-begins/</id>
+		<link href="http://hezahran.com/blogs/updates/hecreek/the-story-begins/" />
+		<id>http://hezahran.com/blogs/updates/hecreek/the-story-begins/</id>
 		<published>2014-08-24T19:14:29+03:00</published>
 		<updated>2014-08-24T19:14:29+03:00</updated>
 		<summary type="html">Well since I’m a freelancer now, I decided to create a dedicated website for a new brand sole Proprietorship company to showcase my services and past work I’ve made during the past years.
@@ -185,8 +185,8 @@ To stop the server simply press &lt;code&gt;Ctrl + C&lt;/code&gt; …&lt;/p&gt;
 
 	<entry>
 		<title type="text">Blogging with Jekyll</title>
-		<link href="http://localhost:4000/blogs/updates/webdev/blogging-with-jekyll/" />
-		<id>http://localhost:4000/blogs/updates/webdev/blogging-with-jekyll/</id>
+		<link href="http://hezahran.com/blogs/updates/webdev/blogging-with-jekyll/" />
+		<id>http://hezahran.com/blogs/updates/webdev/blogging-with-jekyll/</id>
 		<published>2014-08-23T12:54:00+03:00</published>
 		<updated>2014-08-23T12:54:00+03:00</updated>
 		<summary type="html">I’ve been trying new technologies every now and then. I’ve been a big fan of RoR since few years now but never tried to create an application with it… This time I tried to create and host my own personal website on GitHub Pages and make a good use of my no longer used github account…
@@ -205,8 +205,8 @@ To stop the server simply press &lt;code&gt;Ctrl + C&lt;/code&gt; …&lt;/p&gt;
 
 	<entry>
 		<title type="text">Back to Blog!</title>
-		<link href="http://localhost:4000/blogs/updates/back-to-blog/" />
-		<id>http://localhost:4000/blogs/updates/back-to-blog/</id>
+		<link href="http://hezahran.com/blogs/updates/back-to-blog/" />
+		<id>http://hezahran.com/blogs/updates/back-to-blog/</id>
 		<published>2014-08-22T23:00:00+03:00</published>
 		<updated>2014-08-22T23:00:00+03:00</updated>
 		<summary type="html">It’s been a long time since I’ve blogged anything online… Recently, I’ve been extremely busy getting out of my bubble and was looking for a new adventure, and finally managed to create my new next big thing…
