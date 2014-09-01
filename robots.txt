@@ -1,2 +1,5 @@
+# http://www.robotstxt.org/
 user-agent: *
-Sitemap: http://hezahranc.com/sitemap.xml
+Crawl-delay: 1
+Sitemap: http://hezahran.com/sitemap.xml
+Disallow:

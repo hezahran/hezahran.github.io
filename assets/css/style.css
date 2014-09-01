@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700|Rochester|Roboto:400,300,700);
 /*
  HEZahran CSS v1.0
  ----------------------------------------------------------
@@ -8,76 +7,104 @@
  ------------------------------------------------------------*/
 /*-- custom fonts
  ------------------------------------------------------------*/
-/*-- variables
- ------------------------------------------------------------*/
-/*-- mixins
- ------------------------------------------------------------*/
-/*-- basic styles
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700|Rochester|Roboto:400,300,700);
+/*-- base
  ------------------------------------------------------------*/
 html, body {
   height: 100%;
   width: 100%;
-  background: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  color: #34495e; }
+  margin: 0;
+  padding: 0; }
 
 body {
-  padding-top: 50px; }
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 50px;
+  color: #34495e; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: #019875; }
 
-main, section {
-  box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.1); }
+blockquote {
+  margin-bottom: 0; }
+  blockquote p {
+    min-height: 115px; }
+  blockquote footer {
+    background: none;
+    text-shadow: 0 0;
+    padding: 0; }
+
+section {
+  padding-bottom: 3em;
+  margin-bottom: 0; }
 
 a {
   color: #019875; }
-  a:hover {
-    color: #2c3e50; }
 
-blockquote {
-  margin-bottom: 0px; }
-  blockquote footer {
-    padding: 0px;
-    text-shadow: 0 0; }
+footer {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  color: #ecf0f1;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2);
+  background-color: #2c3e50; }
+  footer a {
+    color: #34495e; }
+    footer a:hover {
+      color: #049372; }
+  footer .copyright {
+    margin-top: 1.5em; }
+    footer .copyright a {
+      color: #019875; }
 
-/*-- macyfing bootstrap elements
+/*-- macifying
  ------------------------------------------------------------*/
-.jumbotron {
-  margin-bottom: 0px; }
-
 .btn {
-  font-weight: 300;
-  text-shadow: 0 0; }
-  .btn.active {
-    box-shadow: 0 0; }
+  font-weight: 300; }
+
+.pagination li a, .pagination li span {
+  color: #019875;
+  border-color: #ecf0f1; }
+.pagination .active a, .pagination .active a:hover, .pagination .active a:focus,
+.pagination .active span, .pagination .active span:hover, .pagination .active span:focus {
+  background-color: #019875;
+  border-color: #019875; }
+.pagination .disabled a, .pagination .disabled a:hover, .pagination .disabled a:focus,
+.pagination .disabled span, .pagination .disabled span:hover, .pagination .disabled span:focus {
+  border-color: #ecf0f1; }
+
+.page-header {
+  border-bottom: 1px solid #ecf0f1; }
+
+hr {
+  border-top: 1px dotted #ecf0f1; }
 
 /*-- scaffolding
  ------------------------------------------------------------*/
-.rounded {
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  border-radius: 15px; }
-
 .whitesmoke {
-  background-color: whitesmoke;
-  text-shadow: 1px 1px 1px whitesmoke; }
+  background-color: whitesmoke; }
 
 .alizarin {
   color: #e74c3c; }
 
-.midnightblue {
-  background-color: #2c3e50; }
+.pumpkin {
+  color: #d35400; }
 
 .cursive {
   font-family: "Rochester", cursive;
-  font-style: normal;
-  color: #34495e; }
+  font-style: normal; }
 
+.teaser {
+  padding-top: 3em;
+  margin-bottom: 0px; }
+  .teaser h3 {
+    margin: 0;
+    line-height: 1.9em; }
+
+/*-- buttons
+ ------------------------------------------------------------*/
 .btn-outline {
   color: #019875;
   background-color: transparent;
@@ -90,7 +117,7 @@ blockquote {
 .btn-brand {
   color: white;
   background-color: #019875;
-  border-color: #019875; }
+  border-color: #049372; }
   .btn-brand:hover, .btn-brand:focus, .btn-brand:active {
     color: white;
     background-color: #2c3e50;
@@ -102,79 +129,6 @@ blockquote {
   .btn-link-brand:hover, .btn-link-brand:focus, .btn-link-brand:active {
     color: #049372; }
 
-/*-- header navigation
- ------------------------------------------------------------*/
-.brand-nav {
-  margin: 0; }
-
-.navbar-inverse {
-  background: #34495e; }
-  .navbar-inverse .navbar-brand {
-    color: whitesmoke;
-    background: #019875;
-    font-family: "Fira Sans", sans-serif; }
-    .navbar-inverse .navbar-brand:hover {
-      color: white;
-      background: #049372; }
-  .navbar-inverse .navbar-nav li a {
-    color: #bdc3c7; }
-    .navbar-inverse .navbar-nav li a:hover {
-      color: white; }
-  .navbar-inverse .navbar-nav .active a {
-    background: #2c3e50;
-    color: whitesmoke; }
-    .navbar-inverse .navbar-nav .active a:hover {
-      background: #2c3e50;
-      color: white; }
-
-/*-- intro elements
- ------------------------------------------------------------*/
-.intro {
-  text-shadow: 0px 1px 0px #ecf0f1;
-  min-height: 100%;
-  background-color: whitesmoke;
-  background-image: url(../img/hashem_zahran-header_intro.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: top right; }
-  @media screen and (max-width: 320px) {
-    .intro {
-      padding: 20px; } }
-  .intro #intro-img img {
-    min-height: 100%;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    bottom: 0; }
-
-/*-- portfolio elements
- ------------------------------------------------------------*/
-#portfolio-grid a:hover {
-  text-decoration: none; }
-#portfolio-grid .mix {
-  display: none;
-  text-align: center;
-  margin-bottom: 20px; }
-  #portfolio-grid .mix img {
-    -webkit-box-shadow: 5px 5px 0px #ecf0f1;
-    -moz-box-shadow: 5px 5px 0px #ecf0f1;
-    box-shadow: 5px 5px 0px #ecf0f1; }
-    #portfolio-grid .mix img:hover {
-      opacity: 0.9; }
-
-/*-- project elements
- ------------------------------------------------------------*/
-.project {
-  padding-bottom: 48px; }
-
-.project-header {
-  height: 250px;
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  background-size: 100%;
-  background-position: center center; }
-
 /*-- about elements
  ------------------------------------------------------------*/
 .carousel-indicators {
@@ -184,24 +138,22 @@ blockquote {
     .carousel-indicators li.active {
       background-color: #019875; }
 
-.touch {
-  padding-top: 48px;
-  padding-bottom: 48px;
-  margin-top: 48px; }
-  .touch h3 {
-    margin: 0;
-    line-height: 45px; }
+/*-- intro elements
+ ------------------------------------------------------------*/
+.intro {
+  min-height: 100%;
+  background-image: url("../img/personal/hashem_zahran-header_intro.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top right; }
 
 /*-- contact elements
  ------------------------------------------------------------*/
-form {
-  margin-bottom: 48px; }
-
 .form-group {
   margin-bottom: 0px; }
   .form-group .help-block {
     display: block;
-    min-height: 20px;
+    min-height: 1.5em;
     margin: 0px !important;
     font-size: 1em !important;
     color: #e74c3c; }
@@ -209,9 +161,124 @@ form {
       margin-bottom: 0px;
       list-style: none; }
 
-/**
- * Syntax highlighting styles
- */
+/*-- blog elements
+ ------------------------------------------------------------*/
+article h2 a:hover,
+article h3 a:hover {
+  color: #049372;
+  text-decoration: none; }
+article img {
+  width: 100%;
+  padding: 4px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ecf0f1; }
+article pre {
+  background-color: whitesmoke;
+  border-color: #ecf0f1; }
+
+.pager li a:hover,
+.pager li a:focus,
+.pager li span:hover,
+.pager li span:focus {
+  background-color: #049372;
+  color: whitesmoke;
+  border-color: #019875; }
+
+.post-banner {
+  margin-bottom: 1em; }
+
+/*-- project & portfolio elements
+ ------------------------------------------------------------*/
+#portfolio-grid a:hover {
+  text-decoration: none; }
+#portfolio-grid .mix {
+  display: none;
+  text-align: center;
+  margin-bottom: 20px; }
+  #portfolio-grid .mix img {
+    padding: 0;
+    border: 0;
+    -webkit-box-shadow: 5px 5px 0px #ecf0f1;
+    -moz-box-shadow: 5px 5px 0px #ecf0f1;
+    box-shadow: 5px 5px 0px #ecf0f1; }
+    #portfolio-grid .mix img:hover {
+      opacity: 0.9; }
+  #portfolio-grid .mix h4 {
+    margin-top: 20px;
+    margin-bottom: 0px; }
+  #portfolio-grid .mix p {
+    margin-bottom: 1.5em; }
+
+.project {
+  padding-bottom: 48px; }
+  .project h3 {
+    border-top: 1px dotted #ecf0f1;
+    border-bottom: 1px dotted #ecf0f1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center; }
+  .project hr {
+    border-style: dotted; }
+  .project img {
+    display: block;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px; }
+
+/*-- error pages
+ ------------------------------------------------------------*/
+.errorpage {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0px;
+  background-image: url("../img/personal/hashem_zahran-error.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  .errorpage .container {
+    padding-top: 100px; }
+
+/*-- navigation
+ ------------------------------------------------------------*/
+.navbar-inverse {
+  font-size: 0.9em;
+  background-color: #34495e;
+  border-color: #2c3e50; }
+  .navbar-inverse .brand-nav {
+    margin: 0; }
+  .navbar-inverse .navbar-brand {
+    color: whitesmoke;
+    background-color: #049372; }
+    .navbar-inverse .navbar-brand:hover {
+      color: white;
+      background-color: #019875; }
+  .navbar-inverse .navbar-nav li a {
+    color: #bdc3c7; }
+  .navbar-inverse .navbar-nav .active a {
+    color: white;
+    background-color: #2c3e50; }
+    .navbar-inverse .navbar-nav .active a:hover {
+      background-color: #2c3e50; }
+
+/*-- intro elements
+ ------------------------------------------------------------*/
+.intro {
+  min-height: 100%;
+  background-image: url("../img/personal/hashem_zahran-header_intro.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top right; }
+
+/*-- syntax highlighting
+ ------------------------------------------------------------*/
 .highlight {
   background: #fff; }
   .highlight .c {
@@ -239,32 +306,32 @@ form {
     font-style: italic; }
   .highlight .gd {
     color: #000;
-    background-color: #ffdddd; }
+    background-color: #fdd; }
   .highlight .gd .x {
     color: #000;
-    background-color: #ffaaaa; }
+    background-color: #faa; }
   .highlight .ge {
     font-style: italic; }
   .highlight .gr {
-    color: #aa0000; }
+    color: #a00; }
   .highlight .gh {
-    color: #999999; }
+    color: #999; }
   .highlight .gi {
     color: #000;
-    background-color: #ddffdd; }
+    background-color: #dfd; }
   .highlight .gi .x {
     color: #000;
-    background-color: #aaffaa; }
+    background-color: #afa; }
   .highlight .go {
-    color: #888888; }
+    color: #888; }
   .highlight .gp {
-    color: #555555; }
+    color: #555; }
   .highlight .gs {
     font-weight: bold; }
   .highlight .gu {
-    color: #aaaaaa; }
+    color: #aaa; }
   .highlight .gt {
-    color: #aa0000; }
+    color: #a00; }
   .highlight .kc {
     font-weight: bold; }
   .highlight .kd {
@@ -277,20 +344,20 @@ form {
     color: #458;
     font-weight: bold; }
   .highlight .m {
-    color: #009999; }
+    color: #099; }
   .highlight .s {
-    color: #dd1144; }
+    color: #d14; }
   .highlight .na {
-    color: teal; }
+    color: #008080; }
   .highlight .nb {
-    color: #0086b3; }
+    color: #0086B3; }
   .highlight .nc {
     color: #458;
     font-weight: bold; }
   .highlight .no {
-    color: teal; }
+    color: #008080; }
   .highlight .ni {
-    color: purple; }
+    color: #800080; }
   .highlight .ne {
     color: #900;
     font-weight: bold; }
@@ -298,78 +365,52 @@ form {
     color: #900;
     font-weight: bold; }
   .highlight .nn {
-    color: #555555; }
+    color: #555; }
   .highlight .nt {
-    color: navy; }
+    color: #000080; }
   .highlight .nv {
-    color: teal; }
+    color: #008080; }
   .highlight .ow {
     font-weight: bold; }
   .highlight .w {
-    color: #bbbbbb; }
+    color: #bbb; }
   .highlight .mf {
-    color: #009999; }
+    color: #099; }
   .highlight .mh {
-    color: #009999; }
+    color: #099; }
   .highlight .mi {
-    color: #009999; }
+    color: #099; }
   .highlight .mo {
-    color: #009999; }
+    color: #099; }
   .highlight .sb {
-    color: #dd1144; }
+    color: #d14; }
   .highlight .sc {
-    color: #dd1144; }
+    color: #d14; }
   .highlight .sd {
-    color: #dd1144; }
+    color: #d14; }
   .highlight .s2 {
-    color: #dd1144; }
+    color: #d14; }
   .highlight .se {
-    color: #dd1144; }
+    color: #d14; }
   .highlight .sh {
-    color: #dd1144; }
+    color: #d14; }
   .highlight .si {
-    color: #dd1144; }
+    color: #d14; }
   .highlight .sx {
-    color: #dd1144; }
+    color: #d14; }
   .highlight .sr {
     color: #009926; }
   .highlight .s1 {
-    color: #dd1144; }
+    color: #d14; }
   .highlight .ss {
     color: #990073; }
   .highlight .bp {
-    color: #999999; }
+    color: #999; }
   .highlight .vc {
-    color: teal; }
+    color: #008080; }
   .highlight .vg {
-    color: teal; }
+    color: #008080; }
   .highlight .vi {
-    color: teal; }
+    color: #008080; }
   .highlight .il {
-    color: #009999; }
-
-/*-- footer elements
- ------------------------------------------------------------*/
-footer {
-  color: whitesmoke;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2); }
-  footer a:hover {
-    color: whitesmoke; }
-  footer .social {
-    padding-bottom: 20px; }
-    footer .social a {
-      color: #34495e; }
-      footer .social a:hover.facebook {
-        color: #3b5998; }
-      footer .social a:hover.twitter {
-        color: #00aced; }
-      footer .social a:hover.linkedin {
-        color: #007bb6; }
-      footer .social a:hover.instagram {
-        color: #517fa4; }
-      footer .social a:hover.github {
-        color: #4183C4; }
-      footer .social a:hover.behance {
-        color: #1769FF; }
+    color: #099; }

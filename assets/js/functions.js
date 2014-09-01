@@ -14,16 +14,16 @@ $.stellar({
 });
 
 //  ----------------------------------------------------------
-//  smooth scolling 
+//  smooth scrolling 
 //  ----------------------------------------------------------
-$('#main-navbar').singlePageNav({
-  offset: $('#main-navbar').outerHeight(),
-  updateHash: true,
+$('#main-navbar-home').singlePageNav({
+  offset: $('#main-navbar-home').outerHeight(),
+  updateHash: false,
   filter: ':not(.external)',
 });
 $('.more-info').singlePageNav({
-  offset: $('#main-navbar').outerHeight(),
-  updateHash: true,
+  offset: $('#main-navbar-home').outerHeight(),
+  updateHash: false,
   filter: ':not(.external)',
 });
 
@@ -42,7 +42,7 @@ $('#portfolio-grid').mixItUp({
 //  contact form validation
 //  ----------------------------------------------------------
 $(function() {
-  $("input,textarea").jqBootstrapValidation({
+  $("input, textarea").jqBootstrapValidation({
     preventSubmit: true,
     submitError: function($form, event, errors) {},
     submitSuccess: function($form, event) {
