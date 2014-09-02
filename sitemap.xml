@@ -4,13 +4,13 @@
 	<!-- Site/Blog Indexes -->
 	<url>
 		<loc>http://hezahran.com</loc>
-		<lastmod>2014-09-02T14:15:36+03:00</lastmod>
+		<lastmod>2014-09-02T14:22:34+03:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/blogs/</loc>
-		<lastmod>2014-09-02T14:15:36+03:00</lastmod>
+		<lastmod>2014-09-02T14:22:34+03:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
@@ -50,61 +50,61 @@
 	<!-- Pages -->
 	<url>
 		<loc>http://hezahran.com/about/</loc>
-		<lastmod>2014-09-02T14:15:36+03:00</lastmod>
+		<lastmod>2014-09-02T14:22:34+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/contact/</loc>
-		<lastmod>2014-09-02T14:15:36+03:00</lastmod>
+		<lastmod>2014-09-02T14:22:34+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/blogs/hecreek/</loc>
-		<lastmod>2014-09-02T14:15:36+03:00</lastmod>
+		<lastmod>2014-09-02T14:22:34+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/portfolio/hecreek/</loc>
-		<lastmod>2014-09-02T14:15:36+03:00</lastmod>
+		<lastmod>2014-09-02T14:22:34+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/portfolio/limopedia/</loc>
-		<lastmod>2014-09-02T14:15:36+03:00</lastmod>
+		<lastmod>2014-09-02T14:22:34+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/portfolio/</loc>
-		<lastmod>2014-09-02T14:15:36+03:00</lastmod>
+		<lastmod>2014-09-02T14:22:34+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/about/resume/</loc>
-		<lastmod>2014-09-02T14:15:36+03:00</lastmod>
+		<lastmod>2014-09-02T14:22:34+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/portfolio/slimsons-club/</loc>
-		<lastmod>2014-09-02T14:15:36+03:00</lastmod>
+		<lastmod>2014-09-02T14:22:34+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/blogs/updates/</loc>
-		<lastmod>2014-09-02T14:15:36+03:00</lastmod>
+		<lastmod>2014-09-02T14:22:34+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/blogs/webdev/</loc>
-		<lastmod>2014-09-02T14:15:36+03:00</lastmod>
+		<lastmod>2014-09-02T14:22:34+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
