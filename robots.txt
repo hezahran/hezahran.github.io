@@ -1,4 +1,3 @@
 # http://www.robotstxt.org/
 user-agent: *
 Sitemap: http://hezahran.com/sitemap.xml
-Disallow:
