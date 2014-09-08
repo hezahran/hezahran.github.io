@@ -6,22 +6,9 @@
 </description>
     <link>http://hezahran.com/</link>
     <atom:link href="http://hezahran.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Sep 2014 21:14:35 +0300</pubDate>
-    <lastBuildDate>Mon, 08 Sep 2014 21:14:35 +0300</lastBuildDate>
+    <pubDate>Mon, 08 Sep 2014 21:20:35 +0300</pubDate>
+    <lastBuildDate>Mon, 08 Sep 2014 21:20:35 +0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
-    
-      <item>
-        <title>Startup Weekend Cairo</title>
-        <description>&lt;p&gt;Where Cairo comes to build skills, meet incredible people, and launch successful startups&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Sep 2014 16:08:53 +0300</pubDate>
-        <link>http://hezahran.com/blogs/updates/startup-weekend-cairo/</link>
-        <guid isPermaLink="true">http://hezahran.com/blogs/updates/startup-weekend-cairo/</guid>
-        
-        
-        <category>updates</category>
-        
-      </item>
     
       <item>
         <title>Moving to Jekyll!</title>
