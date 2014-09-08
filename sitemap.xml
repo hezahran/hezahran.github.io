@@ -4,18 +4,24 @@
 	<!-- Site/Blog Indexes -->
 	<url>
 		<loc>http://hezahran.com</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/blogs/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 
 	<!-- Posts -->
+	<url>
+		<loc>http://hezahran.com/blogs/updates/startup-weekend-cairo/</loc>
+		<lastmod>2014-09-08</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.9</priority>
+	</url>
 	<url>
 		<loc>http://hezahran.com/blogs/updates/moving-to-jekyll/</loc>
 		<lastmod>2014-09-02</lastmod>
@@ -50,79 +56,79 @@
 	<!-- Pages -->
 	<url>
 		<loc>http://hezahran.com/portfolio/53wordpress/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/about/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/contact/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/blogs/hecreek/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/portfolio/hecreek/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/portfolio/limopedia/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/portfolio/mubaderon/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/portfolio/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/about/resume/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/portfolio/slimsons-club/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/blogs/updates/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/portfolio/voicedhq/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>http://hezahran.com/blogs/webdev/</loc>
-		<lastmod>2014-09-08T12:53:13+03:00</lastmod>
+		<lastmod>2014-09-08T21:14:35+03:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
