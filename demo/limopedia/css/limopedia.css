@@ -1,0 +1,128 @@
+/*
+ Limo CSS v1.0
+ ----------------------------------------------------------
+	 Copyright (c) 2012, Tabshora.com. All rights reserved.
+	 Coded and Authored with all the love in the world.
+	 Coder: Hashem Zahran @antikano || @hezahran
+ ------------------------------------------------------------*/
+
+/*-- Fonts
+ -------------------------------------------------------------------------------*/
+@import url(//fonts.googleapis.com/css?family=Lobster);
+
+/*-- Basic Styles
+ -------------------------------------------------------------------------------*/
+p{font-size:1.1em; color:#797979}
+a{outline:none !important}
+
+/*-- Macifying
+ -------------------------------------------------------------------------------*/
+::-moz-selection{background:#f1efc1; color:#cb9240; text-shadow:none}
+::selection{background:#f1efc1; color:#cb9240; text-shadow:none}
+::-moz-placeholder{color:#20a1cc}
+::-webkit-input-placeholder{color:#20a1cc}
+ 
+/*-- Scaffolding
+ -------------------------------------------------------------------------------*/
+.btn-interest{margin:30px auto 60px 5%; width:40%; padding:20px 16px; font-size:1.6em; font-weight:bold; background-image:linear-gradient(to bottom, #0d93ba 0px, #024578 100%); background-repeat:repeat-x; border-color:#2B669A; box-shadow:0 0 10px rgba(0,0,0,0.8)}
+.btn-interest:hover, .btn-interest:focus{background-color:#024578; background-position:0 -15px}
+.btn-interest:active, .btn-interest.active{background-color:#024578; border-color:#2B669A} 
+.navbar-default .navbar-nav > .active > a{background:none; box-shadow:none}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{background:none; color:#046598}
+.navbar-nav > li > a{line-height:80px; padding:15px 20px}
+.navbar-nav > li:first-child > a{padding-left:60px}
+.carousel{padding-bottom:60px}
+.carousel-indicators{bottom:40px}
+.carousel-indicators li{background-color:#bdbdbd; border-radius:18px; height:18px; margin:1px; width:18px}
+.carousel-indicators .active{background-color:#044e80; height:18px; margin:1px; width:18px}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{display:inline-block}
+.btn-primary {background-color: #035285;}
+
+/*-- Header Elements
+ -------------------------------------------------------------------------------*/ 
+.logo{background:transparent url(../img/logo-limopedia.png) no-repeat center center; width:220px; height:60px; text-indent:-99999px; margin:25px 0}
+.call{color:#6c6c6c; text-align:center; padding-top:30px}
+.call span{font-size:2.1em; font-weight:bold; display:block; text-align:center}
+
+/*-- Intro Elements
+ -------------------------------------------------------------------------------*/ 
+.home-intro{background:#034e81 url(../img/bkg-1.jpg) no-repeat top center; margin-top:110px;}
+.intro, .app-list{color:#fff; padding-top:60px; font-weight:bold; }
+.intro{font-size:2em}
+.intro span{display:block; font-size:2em}
+.app-list{font-size:3.5em; padding-top:30px;width:50%}
+.app-list small{display:block; font-size:0.45em; padding-left:64px; font-weight:normal; line-height:1.4em}
+.app-list .blue-check{background:url(../img/icn-check.png) no-repeat center left; width:64px; height:44px; display:inline-block; padding-right:20px}
+.app-intro{background:url(../img/hdr-iphone.png) no-repeat right top}
+.app-intro img{width:100%}
+
+/*-- Market Elements
+ -------------------------------------------------------------------------------*/ 
+.home-quotes{padding:140px 0 60px; }
+.home-quotes p{color:#ffffff; font-size:1.6em; z-index:1000px}
+.home-quotes a{display:inline-block; width:222px; height:58px; background: transparent url(../img/app-markets.png) no-repeat left center; text-indent:-99999px;margin:auto 5px 10px}
+.home-quotes a.androidmarket{background-position:center right}
+
+/*-- About Elements
+ -------------------------------------------------------------------------------*/ 
+.home-about{background:transparent url(../img/bkg-2.jpg) no-repeat top center}
+.home-about h3, .home-features h3{font-size:1.2em; color:#ffffff; font-weight:normal; background:#044e80; line-height:2.5em; width:160px; margin:30px auto; text-align:center}
+.about-blocks div{background:url(../img/bkg-grdnt.png) center center no-repeat; color:#ffffff; height:134px; font-size:1.1em; padding-top:45px; margin-top:30px; display:inline-block; width:275px; margin-left:-50px}
+
+/*-- Features Elements
+ -------------------------------------------------------------------------------*/ 
+.home-features h3{margin:60px auto}
+.features{margin-bottom:60px}
+.feature-caption{background:rgba(4,78,128,0.8); width:98%; height:98%; position:absolute; top:1%; left:1%; color:#fff; font-size:2.5em}
+.feature-caption span{left:5%; position:absolute; top:35%; width:90%}
+.home-features .feature-block{padding:5px}
+.home-features .feature-block img{width:100%}
+
+/*-- Parallex Elements
+ -------------------------------------------------------------------------------*/ 
+.home-parallex{background:#ffffff url(../img/bkg-paralex.jpg) center center no-repeat; padding:50px 0}
+
+/*-- Contact Elements
+ -------------------------------------------------------------------------------*/ 
+.home-contact{background:#c4c4c4 url(../img/bkg-contact.png) bottom center no-repeat; min-height:988px}
+.home-contact form{padding-top:250px}
+
+/*-- Pricing Elements
+ -------------------------------------------------------------------------------*/ 
+.pricing-form{background: transparentu url(../img/bkg-2.jpg) no-repeat top center}
+.pricing-form h1, .pricing-form h2{font-family: 'Lobster', cursive; color:#035285;line-height:1.2}
+.pricing-form h2 span{display:block; font-size:0.5em; font-family:Arial, Helvetica, sans-serif; color:#000000; font-style:normal;padding:10px 0 0}
+.pricing-form form{padding-top:150px}
+.payment{background:url(../img/payment.png) no-repeat center right; min-height:55px}
+.checkout{background-position:center left}
+.payment input{height:55px}
+.pricing-info{margin-top:20px; margin-bottom:70px}
+.jumbotron{background:rgba(248,248,248,0.7) !important}
+.fineprints{font-size:0.8em !important}
+input[type="radio"], input[type="checkbox"]{margin-top:11px}
+
+/*-- Privacy Elements
+ -------------------------------------------------------------------------------*/ 
+.privacy-page{padding-top:150px; padding-bottom:50px}
+.privacy-page h2{color:#035285;line-height:1.2}
+.privacy-page ol li{font-size:1.1em; color:#797979}
+
+/*-- Footer Elements
+ -------------------------------------------------------------------------------*/ 
+footer{background:#242424; padding:40px 0 0; color:#6c6c6c}
+.footer-links a{color:#6c6c6c; padding:0 20px}
+.footer-links a.active{color:#ffffff; text-decoration:underline}
+footer h3{font-size:1.7em; padding:10px 0}
+footer .social a{text-indent:-9999px; display:inline-block; height:64px; width:64px; background:url(../img/icn-socialmedia.png) 0 0 no-repeat; margin:5px}
+footer .social a.twitter{background-position:-78px 0}
+footer .social a.linkedin{background-position:-156px 0}
+footer .social a.youtube{background-position:-234px 0}
+footer .devteams{padding:40px 0 20px}
+.privacy{background:#ffffff; color:#242424; padding:40px 0; margin:30px 0 0}
+.privacy a{color:#242424; font-weight:bold}
+
+/* Reset the container */
+.container {
+  max-width: none !important;
+  width: 970px !important;
+}

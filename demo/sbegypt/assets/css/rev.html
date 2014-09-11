@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+
+<!--
+#######################################
+	- THE HEAD PART -
+######################################
+-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>SLIDER REVOLUTION -  The Responsive Slider jQuery Plugin</title>
+    <link rel="icon" type="image/png" href="images/sitelogo.png" />
+
+
+
+    <!-- commented, remove this line to use IE & iOS favicons -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+
+
+    <!-- get jQuery from the google apis -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+
+
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+
+
+    <!-- jQuery KenBurn Slider  -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+
+    <!-- MODULES ONLY FOR THE DEMONSTATION -->
+    <script type="text/javascript" src="rs-plugin/js/jquery-ui-1.8.21.custom.min.js"></script>
+    <script type="text/javascript" src="previewjs/preview-fullwidth.js"></script>
+
+
+
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Share' rel='stylesheet' type='text/css' />
+
+
+</head>
+
+
+
+<!--
+#######################################
+	- THE BODY PART -
+######################################
+-->
+<body class="body-dark">
+
+
+<!--
+        HEADER
+-->
+
+<div class="titlecontainer responsive" style="margin-bottom: 0;">
+    <div class="centered">
+        <div class="title_left">
+            <div class="logo"><img style="width:100%" src="images/tiles/logo.png" /></div>
+            <div class="subtitle">A Royaly customizable, Mobile Optimized jQuery Slider Plugin.</div>
+        </div>
+
+        <a href="http://codecanyon.net/user/themepunch/portfolio?ref=themepunch" target="_blank"><div class="buynow"></div></a>
+        <div style="clear:both"></div>
+    </div>
+</div>
+
+
+<!--
+#################################
+    - THEMEPUNCH BANNER -
+#################################
+-->
+
+<div class="fullwidthbanner-container">
+    <div class="fullwidthbanner">
+        <ul>
+
+
+            <!-- FADE -->
+            <li data-transition="fade" data-slotamount="10" data-thumb="images/thumbs/thumb1.jpg">
+
+                <img src="images/slides/thumb1.jpg" />
+
+                <div class="caption lft" data-x="0" data-y="10" data-speed="900" data-start="900" data-easing="easeOutExpo"><img src="images/slides/glare.png" /></div>
+                <div class="caption lfl" data-x="0" data-y="10" data-speed="900" data-start="1300" data-easing="easeOutBack"><img src="images/slides/dude2.png" /></div>
+                <div class="caption lft big_white" data-x="400" data-y="100" data-speed="400" data-start="1700" data-easing="easeOutExpo">Kickstart Your Website</div>
+                <div class="caption lft big_orange" data-x="400" data-y="137" data-speed="400" data-start="1900" data-easing="easeOutExpo"><span style="font-weight:normal;">With</span><em> Slider Revolution</em></div>
+                <div class="caption lfr medium_grey" data-x="510" data-y="210" data-speed="300" data-start="2500" data-easing="easeOutExpo">Unlimited Transitions</div>
+                <div class="caption sfl" data-x="510" data-y="250" data-speed="300" data-start="2600" data-easing="easeOutExpo"><img src="images/tiles/check.png" /></div>
+                <div class="caption lfr small_text" data-x="560" data-y="248" data-speed="300" data-start="2600" data-easing="easeOutExpo">Sliding, Fading, Slots, Box Transitions<br />
+                    <span style="color: #ffe400;">SLIDER REVOLUTION</span> has it all!</div>
+                <div class="caption sfl" data-x="510" data-y="300" data-speed="300" data-start="2900" data-easing="easeOutExpo"><img src="images/tiles/check.png" /></div>
+                <div class="caption lfr small_text" data-x="560" data-y="307" data-speed="300" data-start="2900" data-easing="easeOutExpo">Responsive & Mobile Optimized</div>
+                <div class="caption sfl" data-x="510" data-y="350" data-speed="300" data-start="3200" data-easing="easeOutExpo"><img src="images/tiles/check.png" /></div>
+                <div class="caption lfr small_text" data-x="560" data-y="348" data-speed="300" data-start="3200" data-easing="easeOutExpo">Customizable Navigation<br />Arrows, Bullets, Thumbs</div>
+            </li>
+
+            <!-- SLIDEUP -->
+            <li data-transition="slideup" data-slotamount="7" data-thumb="images/thumbs/thumb2.jpg">
+
+                <img src="images/slides/thumb2.jpg" />
+
+                <div class="caption sfb" data-x="0" data-y="10" data-speed="900" data-start="900" data-easing="easeOutSine"><img src="images/slides/glare2.png" /></div>
+                <div class="caption lft" data-x="250" data-y="50" data-speed="900" data-start="1700" data-easing="easeOutBack"><img src="images/slides/strawberries.png" /></div>
+                <div class="caption lfb big_white" data-x="120" data-y="330" data-speed="600" data-start="1800" data-easing="easeOutExpo">Strawberries are like a glimpse of summer.</div>
+            </li>
+
+            <!-- SLIDERIGHT -->
+            <li data-transition="slideright" data-slotamount="6" data-thumb="images/thumbs/thumb3.jpg">
+                <img src="images/slides/thumb3.jpg" />
+                <div class="caption sfb" data-x="0" data-y="50" data-speed="900" data-start="900" data-easing="easeOutSine"><img src="images/slides/space.jpg" /></div>
+                <div class="caption lft boxshadow" data-x="200" data-y="80" data-speed="900" data-start="1300" data-easing="easeOutExpo"><iframe src="http://player.vimeo.com/video/32001208?title=0&amp;byline=0&amp;portrait=0" width="460" height="259"></iframe></div>
+                <div class="caption lfb small_text" data-x="335" data-y="358" data-speed="300" data-start="1600" data-easing="easeOutExpo">Just an awesome Vimeo Video</div>
+
+            </li>
+
+
+            <!-- SLIDEUP -->
+            <li data-transition="slideup" data-slotamount="15" data-thumb="images/thumbs/thumb4.jpg">
+                <img src="images/slides/wideimage.jpg" />
+                <div class="caption lfl" data-x="100" data-y="80" data-speed="300" data-start="900" data-easing="easeOutExpo"><img src="images/slides/badge.png" /></div>
+                <div class="caption lfr very_big_white" data-x="500" data-y="100" data-speed="300" data-start="1200" data-easing="easeOutExpo">GET THE</div>
+                <div class="caption lfr very_big_white" data-x="500" data-y="160" data-speed="300" data-start="1300" data-easing="easeOutExpo">PARTY</div>
+                <div class="caption lfr very_big_white" data-x="500" data-y="220" data-speed="300" data-start="1400" data-easing="easeOutExpo">STARTED</div>
+                <div class="caption lfb big_white" data-x="500" data-y="300" data-speed="300" data-start="1500" data-easing="easeOutExpo"><a href="#">SIGN UP HERE</a></div>
+            </li>
+
+            <!-- SLIDELEFT -->
+            <li data-transition="slideleft" data-slotamount="15" data-thumb="images/thumbs/thumb5.jpg">
+                <img src="images/slides/wideimage2.jpg" />
+                <div class="caption lft very_large_text" data-x="50" data-y="160" data-speed="300" data-start="1200" data-easing="easeOutExpo">BUTTON STYLES INCLUDED!</div>
+                <div class="caption sfb" data-x="50" data-y="250" data-speed="1000" data-start="1500" data-easing="easeOutBack"><a href="#" target="_blank" class="button red small">Red Button</a></div>
+                <div class="caption sfb" data-x="170" data-y="250" data-speed="1000" data-start="1600" data-easing="easeOutBack"><a href="#" target="_blank" class="button orange small">Orange Button</a></div>
+                <div class="caption sfb" data-x="315" data-y="250" data-speed="1000" data-start="1700" data-easing="easeOutBack"><a href="#" target="_blank" class="button green small">Green Button</a></div>
+                <div class="caption sfb" data-x="450" data-y="250" data-speed="1000" data-start="1800" data-easing="easeOutBack"><a href="#" target="_blank" class="button blue small">Blue Button</a></div>
+                <div class="caption sfb" data-x="570" data-y="250" data-speed="1000" data-start="1900" data-easing="easeOutBack"><a href="#" target="_blank" class="button lightgrey small">Light Button</a></div>
+                <div class="caption sfb" data-x="700" data-y="250" data-speed="1000" data-start="2000" data-easing="easeOutBack"><a href="#" target="_blank" class="button darkgrey small">Dark Button</a></div>
+            </li>
+
+
+
+
+        </ul>
+        <div class="tp-bannertimer"></div>
+    </div>
+</div>
+
+
+<!--<div id="go" style="position:fixed;top:10px; left:10px; width:40px; height:20px; background-color:#00ff00;"></div>-->
+<div class="previewselector_container">
+    <a href="index.html"><div class="previewselector erste"></div></a>
+    <a href="index-fullwidth.html"><div class="previewselector zweite selected"></div></a>
+    <a href="index-simple.html"><div class="previewselector dritte"></div></a>
+    <div style="clear:both"></div>
+</div>
+
+
+<div class="configurator responsive">
+    <div class="configtitle"><div class="cti"><img style="width:100%" src="images/tiles/sliderconfigheadline.png" /></div></div>
+    <div class="inside">
+        <div class="configurator_left">
+            <div class="select_transition">
+                <div class="optiontitle">Pick a Slider Transition</div>
+                <div class="transition t_mixed selected" data-value="Demo">Various Transitions</div>
+                <div class="transition t_box1" data-value="boxslide">Box Mask</div>
+                <div class="transition t_box2" data-value="boxfade">Box Mask Mosaic</div>
+                <div class="transition t_szh" data-value="slotzoom-horizontal">Slot Zoom Horizontal</div>
+                <div class="transition t_ssh" data-value="slotslide-horizontal">Slot Slide Horizontal</div>
+                <div class="transition t_sfh" data-value="slotfade-horizontal">Slot Fade Horizontal</div>
+                <div class="transition t_szv" data-value="slotzoom-vertical">Slot Zoom Vertical</div>
+                <div class="transition t_ssv" data-value="slotslide-vertical">Slot Slide Vertical</div>
+                <div class="transition t_sfv" data-value="slotfade-vertical">Slot Fade Vertical</div>
+                <div class="transition t_c1" data-value="curtain-1">Curtain One</div>
+                <div class="transition t_c2" data-value="curtain-2">Curtain Two</div>
+                <div class="transition t_c3" data-value="curtain-3">Curtain Three</div>
+                <div class="transition t_sl" data-value="slideleft">Slide Left</div>
+                <div class="transition t_sr" data-value="slideright">Slide Right</div>
+                <div class="transition t_su" data-value="slideup">Slide Up</div>
+                <div class="transition t_sd" data-value="slidedown">Slide Down</div>
+                <div class="transition t_sf" data-value="fade">Fade</div>
+            </div>
+            <div class="clear"></div>
+            <div style="height:40px;"></div>
+            <div class="showoptions">
+                <div class="optiontitle" style="float:left">Current Plugin Options</div><div class="accordion selected"></div>
+                <div class="clear"></div>
+                <div class="plugoptions accordioncontent">
+                    <pre>jQuery('YOURBANNER').revolution(<br />{<br />		delay:9000,<br />		startheight:450,<br />		startwidth:890,<br /><br />		thumbWidth:100,<br />		thumbHeight:50,<br />		thumbAmount:5,<br /><br />		onHoverStop:"on",<br />		hideThumbs:200,<br />		navigationType:"bullet",<br />		navigationStyle:"round",<br />		navigationArrows:"nexttobullets",<br /><br />		touchenabled:"on",<br /><br />		navOffsetHorizontal:0,<br />		navOffsetVertical:20,<br />		shadow:1<br />		fullWidth:"off"<br />});</pre>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="configurator_right">
+            <div class="select_navigationtype radios">
+                <div class="optiontitle">Navigation Type</div>
+                <div class="radio selected" data-value="bullet">Bullets</div>
+                <div class="radio" data-value="thumb">Thumbnails</div>
+                <div class="radio" data-value="none" data-valueextra="none">None</div>
+                <div class="clear"></div>
+                <div style="height:40px;"></div>
+            </div>
+
+
+            <div class="select_bulletstyle radios">
+                <div class="optiontitle">Bullet Style</div>
+                <div class="radio selected nbullet" data-value="round"><img style="margin-top:-7px" src="images/tiles/bullets_round.png" /></div>
+                <div class="radio nbullet" data-value="square"><img style="margin-top:-7px" src="images/tiles/bullets_square.png" /></div>
+                <div class="radio breakmenow nbullet" data-value="navbar"><img style="margin-top:-7px" src="images/tiles/bullets_boxed.png" /></div>
+                <div class="clear"></div>
+                <div style="height:40px;"></div>
+            </div>
+
+            <div class="select_bhposition">
+                <div class="optiontitle">Bullet Horizontal Offset</div>
+                <div class="dragline">
+                    <div class="dragger" data-min="-200" data-max="200"></div>
+                    <div style="position:absolute; top:30px; left:0px;">-200px</div>
+                    <div style="position:absolute; top:30px; left:50%;margin-left:-10px;">0px</div>
+                    <div style="position:absolute; top:30px; right:0px;">200px</div>
+                </div>
+                <div class="clear"></div>
+                <div style="height:70px;"></div>
+            </div>
+
+            <div class="select_bvposition">
+                <div class="optiontitle">Bullet Vertical Offset</div>
+                <div class="dragline">
+                    <div class="dragger" data-min="-100" data-max="100" style="left:60%"></div>
+                    <div style="position:absolute; top:30px; left:0px;">-100px</div>
+                    <div style="position:absolute; top:30px; left:50%;margin-left:-10px;">0px</div>
+                    <div style="position:absolute; top:30px; right:0px;">100px</div>
+                </div>
+                <div class="clear"></div>
+                <div style="height:70px;"></div>
+            </div>
+
+            <div class="select_navarrows radios">
+                <div class="optiontitle">Navigation Arrows</div>
+                <div class="radio selected nbullet" data-value="nexttobullets">Next to Bullets</div>
+                <div class="radio vcentered" data-value="verticalcentered">Verticaly Centered</div>
+                <div class="radio" data-value="none">None</div>
+                <div class="clear"></div>
+                <div style="height:40px;"></div>
+            </div>
+
+            <div class="select_navshow radios">
+                <div class="optiontitle">Navigation Show</div>
+                <div class="radio selected" data-value="200">on Hover</div>
+                <div class="radio" data-value="999999999">Always</div>
+                <div class="clear"></div>
+                <div style="height:40px;"></div>
+            </div>
+
+            <div class="select_hovers radios">
+                <div class="optiontitle">Stop Timer By Hovering</div>
+                <div class="radio selected" data-value="on">On</div>
+                <div class="radio" data-value="off">Off</div>
+                <div class="clear"></div>
+                <div style="height:40px;"></div>
+            </div>
+
+
+
+            <div class="select_slidetime">
+                <div class="optiontitle">Slide Time</div>
+                <div class="dragline">
+                    <div class="dragger" data-value="9" style="left:50%" data-min="3" data-max="15"></div>
+                    <div style="position:absolute; top:30px; left:0px;">3 sec</div>
+                    <div style="position:absolute; top:30px; left:50%;margin-left:-15px;">9 sec</div>
+                    <div style="position:absolute; top:30px; right:0px;">15 sec</div>
+                </div>
+                <div class="clear"></div>
+                <div style="height:70px;"></div>
+            </div>
+
+            <div class="select_timeshow radios">
+                <div class="optiontitle">Timer Show</div>
+                <div class="radio selected" data-value="showtimer">Show</div>
+                <div class="radio" data-value="hidetimer">Hide</div>
+                <div class="clear"></div>
+                <div style="height:40px;"></div>
+            </div>
+
+            <div class="select_slots">
+                <div class="optiontitle tbcs">Transition Box Columns / Slots</div>
+                <div class="dragline">
+                    <div class="dragger" data-value="0" style="left:0px" data-min="0" data-max="25"></div>
+                    <div style="position:absolute; top:30px; left:0px;">0 Slot (Random)</div>
+                    <div style="position:absolute; top:30px; left:50%;margin-left:-25px;">12 Slots</div>
+                    <div style="position:absolute; top:30px; right:0px;">25 Slots</div>
+                </div>
+                <div class="clear"></div>
+                <div style="height:70px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="unvisible_button"></div>
+
+
+<!--<div id="go" style="position:fixed;top:10px; left:10px; width:40px; height:20px; background-color:#00ff00;"></div>-->
+
+
+
+
+
+<!--
+##############################
+ - ACTIVATE THE BANNER HERE -
+##############################
+-->
+<script type="text/javascript">
+
+    var tpj=jQuery;
+    tpj.noConflict();
+
+    tpj(document).ready(function() {
+
+        if (tpj.fn.cssOriginal!=undefined)
+            tpj.fn.css = tpj.fn.cssOriginal;
+
+        tpj('.fullwidthbanner').revolution(
+                {
+                    delay:9000,
+                    startwidth:890,
+                    startheight:450,
+
+                    onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
+
+                    thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+                    thumbHeight:50,
+                    thumbAmount:4,
+
+                    hideThumbs:200,
+                    navigationType:"both",					//bullet, thumb, none, both	 (No Shadow in Fullwidth Version !)
+                    navigationArrows:"verticalcentered",		//nexttobullets, verticalcentered, none
+                    navigationStyle:"round",				//round,square,navbar
+
+                    touchenabled:"on",						// Enable Swipe Function : on/off
+
+                    navOffsetHorizontal:0,
+                    navOffsetVertical:20,
+
+                    fullWidth:"on",
+
+                    shadow:0								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
+
+                });
+
+
+
+
+    });
+</script>
+
+
+
+
+</body>
+
+
+		

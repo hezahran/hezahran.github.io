@@ -1,0 +1,214 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head id="www-limopedia-com" data-template-set="master-template">
+	<meta charset="UTF-8">
+	<title>Limopedia - Driven by the Phone</title><meta name="description" content="Limopiedia receive reservations and improve communications with your clients">
+	<meta name="dcterms.rightsHolder" content="Limopedia Corporation">
+	<meta name="dcterms.rights" content="All rights reserved">
+	<meta name="dcterms.rightsHolder" content="2014">
+	<!-- za Styles -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/limopedia.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+	<!-- za fav and touch icons -->
+	<link rel="author" href="humans.txt">
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icons/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icons/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/img/apple-touch-icon-57x57-precomposed.png">
+	<!-- za Facebook Share -->
+	<meta property="og:site_name" content="Limopedia">
+	<meta property="og:url" content="http://www.limopedia.com">
+	<meta property="og:title" content="Limopedia - Driven by the Phone">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="http://limopedia.com/img/icons/fb-preview.png">
+	<meta property="og:description" content="Limousine operators from all over the world use Limopiedia to receive reservations and to dramatically improve communications with their clients">
+	<!-- za Twitter Card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@limopedia">
+	<meta name="twitter:url" content="http://www.limopedia.com">
+	<meta name="twitter:title" content="Limopedia - Driven by the Phone">
+	<meta name="twitter:description" content="Limousine operators from all over the world use Limopiedia to receive reservations and to dramatically improve communications with their clients">
+	<meta name="twitter:image" content="http://limopedia.com/img/icons/tw-card.png">
+</head>
+
+<body data-spy="scroll" data-target=".main-navigation">
+	<header class="navbar navbar-default navbar-fixed-top" id="navigation-bar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand logo" href="index.php">Limopedia</a>
+			</div>
+			<!-- /.navbar-header -->
+			<div class="main-navigation navbar-collapse collapse single-page-nav">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a class="external" href="index.php#nav-header">Home</a>
+					</li>
+					<li>
+						<a class="external" href="index.php#nav-about">About Us</a>
+					</li>
+					<li>
+						<a class="external" href="index.php#nav-features">Features</a>
+					</li>
+					<li>
+						<a class="external" href="pricing.php">Pricing</a>
+					</li>
+					<li>
+						<a class="external" href="index.php#nav-contact">Contact Us</a>
+					</li>
+				</ul>
+				<!-- /.nav -->
+				<div class="call pull-right">Or call us for more information
+					<span>866-491-8508</span>
+				</div>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+		<!-- /.container -->
+	</header>
+	<!-- /header -->
+
+  <section id="nav-contact" class="privacy-page">
+  	<div class="container">
+    	<div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+					<h2>Terms and Conditions</h2>
+					<p>These TERMS OF SERVICE (this “<strong>Agreement</strong>”) is made between Limopedia Corp. (“<strong>Limopedia</strong>”) and you, or, if you represent an entity or other organization, that entity or organization (in either case “You”).</p>
+					<p>Limopedia provides certain services relating to the development, transmission, analysis, and management of limousine mobile application (the “Services”) through the web site located at <a href="index.php">www.limopedia.com</a> and such other sites as may be designated by Limopedia (each, the “<strong>Site</strong>” or collectively, the “<strong>Sites</strong>”). </p>
+					<p>All access to and use of the Services available through the Site is subject to the terms of this Agreement. If You wish to access and use the publicly available portions of the Services and the Site, You may do so only in compliance with the terms of this Agreement. If You have placed or later place an order (whether through the Site, by email, phone or otherwise) with Limopedia (Your “<strong>Order</strong>”) seeking to access and use certain of the Services requiring registration, Limopedia is willing to accept Your Order and provide You with access to and use of those Services only if You comply with the terms and conditions of this Agreement. </p>
+          <p>Without limiting the foregoing, the Services are not available to individuals under the age of 18 or who do not meet any of the other qualifications included in this agreement.</p>
+          <p>PLEASE CAREFULLY READ THIS AGREEMENT. BY SUBMITTING AN ORDER OR BY ACCESSING OR USING THE SITE OR SERVICES, YOU AGREE THAT YOU HAVE READ AND AGREE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT.</p>
+          <p>IF YOU DO NOT AGREE TO THIS AGREEMENT, OR DO NOT MEET THE QUALIFICATIONS INCLUDED IN THIS AGREEMENT, LIMOPEDIA IS NOT WILLING TO PROVIDE YOU WITH ACCESS TO OR USE OF THE SITE OR SERVICES AND YOU MUST NOT ACCESS OR USE THE SITE OR SERVICES. IF YOU ACCESS OR USE THE SITE OR SERVICES, YOU ACKNOWLEDGE THAT YOU MEET THE QUALIFICATIONS INCLUDED IN THIS AGREEMENT AND AGREE TO BE BOUND BY THIS AGREEMENT.</p>
+          <p>This Agreement is entered into as of the earlier of the date You first submit an Order relating to the Services or first access or use the Services or a Site (the “<strong>Effective Date</strong>”). This Agreement consists of the following terms and conditions and each Order submitted by You and accepted by Limopedia, each of which is incorporated in and made a part of this Agreement. Unless otherwise amended as provided herein, this Agreement will exclusively govern Your access to and use of the Services and the Sites and is the complete and exclusive understanding and agreement between the parties, and supersedes any oral or written proposal, agreement or other communication between the parties, regarding Your access to and use of the Services and the Sites. Except as expressly set forth in this Agreement, this Agreement may be amended or modified only by a writing signed by both parties. All waivers under this Agreement must be in writing. Any waiver or failure to enforce any provision of this Agreement on one occasion will not be deemed a waiver of any other provision or of such provision on any other occasion.</p>
+          <p>Limopedia reserves the right, at any time, to change or modify the Site, Services or this Agreement, by making such change or modification available on the Site or by providing other notice to You. Any such change or modification will be effective 30 days after posting on the Site or such other notice. As applicable, You will be deemed to have agreed to such change or modification through Your continued use of the Site or Services.</p>
+          <ol>
+          	<li><strong>Definitions</strong>. Terms used in this Agreement will have the definitions given in this Agreement or, if not defined in this Agreement, will have their plain English meaning as commonly interpreted in the United States.</li>
+            <li><strong>Orders and Confirmation</strong>. All Orders placed by You will be governed by the terms of this Agreement. Limopedia will confirm Your Order either through the Site at the time you submit Your Order or by providing You with access to the Services (each, a “Confirmation”). If the terms of any Order conflict with the terms of any Confirmation of that Order, the terms of the Confirmation will govern and control with respect to the Services provided to You. This Agreement will govern and control the terms of each Order and Confirmation under this Agreement. By accessing or using any of the Services, You agree to be bound by the terms of this Agreement and each applicable Order and Confirmation with respect to those Services.</li>
+            <li><strong>Term</strong>. This Agreement will be effective upon the Effective Date. If You have ordered a trial subscription to the Services or a subscription to any free Services, as indicated in an applicable Order or Confirmation (a “Trial/Free Subscription”), then the term of this Agreement will continue for the period of the Trial/Free Subscription indicated in the applicable Order or Confirmation and will thereafter expire unless You place an Order for a non-trial subscription to the Services prior to the completion thereof. If You have ordered a non-trial subscription to the Services, then the term of this Agreement will continue for the initial period stated in the applicable Order or Confirmation for the Services and will thereafter automatically renew for successive additional periods of equal duration. If no initial period is stated in the applicable Order or Confirmation for the Services, this Agreement will continue for an initial period of 1 month and will thereafter automatically renew for successive additional 1-month periods. Unless terminated as set forth herein, the term of this Agreement will continue to renew until You notify Limopedia that You do not wish to renew the Agreement at least 10 days prior to the end of the then-current period. In all other cases, the term of this Agreement will continue until terminated as set forth herein.</li>
+            <li><strong>Subscription</strong>. Subject to this Agreement, during the term of this Agreement Limopedia will provide You with a limited subscription to access and use the Services subject to Confirmations under this Agreement, solely for Your own use in connection with your own business purposes. Your rights to access and use the Services are personal, non-exclusive, non-transferable and non-sublicensable. You understand that Limopedia may from time to time, in its sole discretion, update, change, revise, suspend or discontinue the Services (or any portion thereof) with or without notice.</li>
+            <li><strong>Applicable Policies</strong>. In addition to the terms of this Agreement, Your access to and use of the Site and Services is subject to Limopedia’s then-current policies relating to the Site and Services.</li>
+            <li><strong>Software</strong>. Any software or code available on or for download through the Site or Services (“<strong>Software</strong>”) is protected by IPR (as defined below). Unless otherwise expressly stated in a license or other agreement separate from this Agreement that You may have entered into (or may enter into) with Limopedia relating to any Software (each such license or other agreement, a “<strong>Software License Agreement</strong>”), Limopedia grants you a limited, non-exclusive right and license to download, install and execute the Software in accordance with the instructions provided on the Site and solely for your own business purposes in connection with Your access to and use of the Services. Except as expressly set forth in the foregoing sentence (or any applicable Software License Agreement), You are granted no licenses or rights, whether by implication, estoppel, or otherwise, in or to any Software or any IPR therein or related thereto, and You may not modify, reproduce, perform, display, create derivative works from, republish, post, transmit, participate in the transfer or sale of, distribute, or in any way exploit any portion of the Software without the prior written permission of Limopedia. Except as set forth in this Agreement, any Software License Agreement will control in the event of a conflict between the terms of this Agreement and that Software License Agreement.</li>
+            <li><strong>Third-Party Services</strong>. The Services may include services developed, provided or maintained by third-party service providers (“<strong>Third Party Services</strong>”). In addition to the terms of this Agreement, Your access to and use of any Third Party Services is also subject to any other agreement separate from this Agreement that You may enter into (or may have entered into) relating to those Third Party Services (each, a “<strong>Third Party Service Agreement</strong>”). The terms of any Third Party Service Agreement will apply to the applicable Third Party Services provided under that Third Party Service Agreement in addition to the terms of this Agreement. Except as set forth in this Agreement, the terms of any Third Party Service Agreement will control in the event of a conflict between the terms of this Agreement and that Third Party Service Agreement. All other Third Party Services will be subject to the terms of this Agreement. Third Party Services may be subject to additional Fees as set forth on the Site. Notwithstanding the terms of any Third Party Services Agreement, Limopedia may change, modify or discontinue any Third Party Service at any time and without notice to You. Except as expressly set forth in this Agreement or any Third Party Service Agreement, You are granted no licenses or rights, whether by implication, estoppel, or otherwise, in or to any Third Party Services.</li>
+            <li><strong>Restrictions</strong>. You acknowledge that the Services, Sites, Software, and the databases, software, hardware and other technology used by or on behalf of Limopedia to provide the Services and operate the Sites (the “Technology”) and their structure, organization, and underlying data, information and source code constitute valuable trade secrets of Limopedia. You will not, and will not permit any third party to: (1) access or use the Services or the Sites, in whole or in part, except as expressly provided in this Agreement; (2) use the Site, Services or any Software to harvest or collect e-mail addresses or other contact information of third parties by any means for the purposes of sending unsolicited e-mails or other unsolicited communications; (3) use the Site, Services or any Software in any unlawful manner or in any other manner that could damage, disable, overburden or impair the Site or Services; (4) use automated scripts to collect information from or otherwise interact with the Site, Services or any Software; (5) use the Site, Services or any Software to intimidate or harass any other people or entities; alter, modify, reproduce, create derivative works of the Services, Technology, or any Software; (6) distribute, sell, resell, lend, loan, lease, license, sublicense or transfer any of Your rights to access or use the Services or any Software, including, without limitation, providing outsourcing, service bureau, hosting, application service provider or on-line services to third parties, or otherwise make the Services or any Software, or access thereto, available to any third party; (7) reverse engineer, disassemble, decompile, or otherwise attempt to derive the source code or method of operation of or any trade secrets embodied in the Site, Services, Technology or any Software; (8) attempt to circumvent or overcome any technological protection measures intended to restrict access to any portion of the Sites, Services, Technology, or any Software; or (9) interfere in any manner with the operation or hosting of the Sites, Services, Technology or any Software, or attempt to gain unauthorized access to the Sites, Services, Technology or any Software. You will not allow any access to or use of the Services by anyone other than Your authorized Users, and any such use will be consistent with the terms, conditions and restrictions set forth in this Agreement.</li>
+            <li><strong>Fees and Payment</strong>. You agree to pay Limopedia all fees set forth in each Order or Confirmation and any fees otherwise specified on the Site or through the Services (“<strong>Fees</strong>”). All Fees will be billed as indicated in each Order or Confirmation. If the applicable Order or Confirmation does not specify any applicable billing terms, the initial payment of Fees specified under that Order or Confirmation for each period in Your subscription will be due and payable by You in advance on or before the Effective Date and again on or before the completion of each subsequent period under this Agreement. If You have specified credit card or direct withdrawal from a bank account as an applicable payment mechanism under this Agreement, You grant Limopedia the right to charge the credit card or debit the bank account provided to Limopedia for all Fees incurred under this Agreement. All Fees will be non-refundable once paid to Limopedia (including upon any termination or suspension of this Agreement). Until paid in full, all past due amounts will bear an additional charge of the lesser of 1 1/2% per month or the maximum amount permitted under applicable law. Limopedia may change any portion of the Fees by posting the changes to the Sites or otherwise notifying You through the Services of the change, such changes to take effect at the beginning of the next period of this Agreement. If Limopedia requires use of collection agencies, attorneys, or courts of law for collection on Your account, You will be responsible for those expenses. You will be responsible for all use, sales, and other taxes imposed on the Services provided under this Agreement.</li>
+            <li><strong>Termination and Suspension</strong>. This Agreement may be terminated by Limopedia, at any time, in Limopedia’s sole discretion: (1) upon any breach by You of this Agreement that remains uncured ten (10) days after Limopedia delivers written notice to You of such breach; or (2) at any time during any Trial/Free Subscription, for any reason or no reason, upon notice to You. Without limiting Limopedia’s right to terminate this Agreement, Limopedia may also immediately and indefinitely suspend Your access to the Sites or Services, with or without notice to You, upon any actual, threatened or suspected breach of this Agreement or of applicable law or upon any other conduct deemed inappropriate or detrimental to the Services by Limopedia. Upon termination or expiration of this Agreement for any reason: (a) all rights and subscriptions granted to You under this Agreement will terminate; (b) You will immediately cease all use of and access to the Sites and Services; © all Fees then owed by You will become immediately due and payable; (d) You will immediately either return to Limopedia or, at Limopedia’s discretion, destroy the Limopedia Content, Account IDs, Limopedia Confidential Information, and other information related to this Agreement in Your possession or control; and (e) Limopedia may delete any of Your Content held by Limopedia within 10 days after the date of termination. Sections 6 (Applicable Policies), 9 (Restrictions), 10 (Fees and Payment), 11 (Termination and Suspension), 12 (Ownership), 14.3 (Warranties and Disclaimer: Disclaimer), 15.2 (Indemnity: By You), 16 (Limitation on Liability), 17 (Data Privacy), 18 (Confidentiality), 21 (Disputes), 22 (Governing Law) and 23 (General) will survive any expiration or termination of this Agreement.</li>
+            <li><strong>Ownership</strong>. Limopedia retains all right, title and interest, including, without limitation, all IPR (as defined below), in and to the Sites, Services, Technology, Limopedia Content (as defined below), any Software, and any additions, improvements, updates, and modifications thereto. You acknowledge that You are not receiving any ownership interest in or to any of the foregoing, and no right or license is granted to You to use them apart from Your right to access the Services under this Agreement. The Limopedia name, logo and the product and service names associated with the Services are trademarks of Limopedia (or its third party providers), and no right or license is granted to You to use them. For purposes of this Agreement, “IPR” means any and all intellectual property rights, proprietary rights, rights of publicity, rights of privacy, and any and all other legal rights protecting data, information or intangible property throughout the world, including, without limitation, any and all copyrights, trademarks, service marks, trade secrets, patent rights, moral rights, sui generis rights in databases, and contract rights. </li>
+            <li><strong>Content</strong>.
+            	<ol>
+              	<li><strong>Limopedia Content</strong>. You with access to certain data, information and other content through the Site and Services (“<strong>Limopedia Content</strong>”). Unless otherwise noted on the Site, as between You and Limopedia, all Limopedia Content is owned by Limopedia. Subject to this Agreement, each User may: access the Limopedia Content (without modification) solely for Your own business purposes in connection with Your use of the Services;</li>
+              	<li><strong>Your Content.</strong> You will be solely responsible for all data, information and other content provided by, or collected or obtained from, You or any of Your Users through the Services, including, without limitation, all personally identifiable information relating to You or any of Your Users, customers, service providers, employees, contractors or agents (“Your Content”). You grant to Limopedia all necessary rights and licenses in and to Your Content necessary for Limopedia to provide the Services under this Agreement. As between You and Limopedia, You retain all of Your rights in and to Your Content and do not convey any proprietary interest therein to Limopedia other than the licenses set forth herein. You represent and warrant that none of Your Content violates this Agreement or the Email Policy or Privacy Policy. You will maintain an adequate back-up of all Your Content and Limopedia will not be responsible or liable for any deletion, correction, destruction, damage, loss or failure to store or back-up any of Your Content. Limopedia may take remedial action if any of Your Content violates this Agreement, provided that Limopedia is under no obligation to review any of Your Content for accuracy or potential liability. You represent and warrant to Limopedia that You have all necessary right, title, interest and consent necessary to allow Limopedia to use Your Content for the purposes for which You provide Your Content to Limopedia, including, without limitation, the delivery of any and all emails and other communications. You will defend, indemnify and hold harmless Limopedia from any and all losses, costs, damages, liabilities or expenses (including without limitation reasonable attorney’s fees) incurred or arising from any claim by a third party arising out of or relating to Your Content or the use thereof by Limopedia in providing the Services.</li>
+              </ol>
+            </li>
+            <li><strong>Warranties and Disclaimer</strong>.
+            	<ol>
+              	<li><strong>By Limopedia</strong>. Except in the case of any Services provided during a Trial/Free Subscription, Limopedia represents and warrants to You that Limopedia will use commercially reasonable efforts to maintain and verify that the Services operate in accordance with this Agreement.</li>
+                <li><strong>By You</strong>. You hereby represent, warrant, and covenant for the benefit of Limopedia that: (1) You have the legal right and authority to enter into this Agreement, and, if You are accepting this Agreement on behalf of a company or other entity, to bind the company or other entity to the terms of this Agreement; (2) You have the legal right and authority to perform Your obligations under this Agreement and to grant the rights and licenses described in this Agreement and in any applicable additional agreement You enter into in connection with any of the Services; and (3) Your Content, and any other data, information or content You provide to Limopedia in connection with this Agreement and Your access to the Site and use of the Services, is correct and current.</li>
+                <li><strong>Disclaimer</strong>. EXCEPT AS EXPRESSLY SET FORTH IN THIS SECTION 14, THE SITES AND SERVICES (AND ALL LIMOPEDIA CONTENT PROVIDED THROUGH THE SITESAND SERVICES) ARE PROVIDED TO YOU STRICTLY “AS IS” AND “AS AVAILABLE” AND LIMOPEDIA AND ITS PROVIDERS EXPRESSLY DISCLAIM ANY AND ALLWARRATTIES AND REPRESENTATIONS OF ANY KIND WITH REGARD TO ANY SUBJECT MATTER OF THIS AGREEMENT, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, TITLE OR NON-INFRINGEMENT. NO ORAL ORWRITTEN INFORMATION OR ADVICE GIVEN BY LIMOPEDIA, ITS EMPLOYEES, DISTRIBUTORS, DEALERS, OR AGENTS WILL INCREASE THE SCOPE OF, OR CREATE ANYNEW WARRANTIES IN ADDITION TO, THE WARRANTIES EXPRESSLY SET FORTH IN THIS SECTION 14.</li>
+              </ol>
+            </li>
+            <li><strong>Indemnity</strong>.
+              <ol>
+                <li><strong>By Limopedia</strong>. Except in the case of any Services provided during a Trial/Free Subscription, Limopedia will, at its expense, defend You against any claims brought against You by a third party that Your use of the Services in accordance with this Agreement infringes any copyright, trade secret or trademark right. The foregoing obligations of Limopedia under this Section 15 are conditioned upon You providing Limopedia with: (a) notice of any such claim within 10 days after You receive written notice thereof; (b) sole control over the defense and settlement of such claim; and © reasonable assistance (at Limopedia’s expense) in the defense and settlement of such claim. If You are, or Limopedia reasonably believes You may be, enjoined from using the Services, Limopedia, at Limopedia’s option and expense, may procure the right for You to continue using the Services, replace or modify the Services so that they become non-infringing, or provide You a refund of all pre-paid amounts applicable to such Services (if any) and terminate this Agreement with respect to such Services. This Section 15.1 constitutes Limopedia’s sole and exclusive liability, and Your sole and exclusive remedy, for any infringement or misappropriation of any third party IPR by or through the Site, Services, Technology, Limopedia Content or any Software.</li>
+                <li><strong>By You</strong>. You hereby indemnify, defend, and hold harmless Limopedia and its affiliates, employees, agents, contractors, assigns, licensees, and successors in interest (“Indemnified Parties”) from any and all claims, losses, liabilities, damages, fees, expenses, and costs (including attorneys’ fees, court costs, damage awards, and settlement amounts) that result from any claim or allegation against any Indemnified Party arising from Your accessing or using the Site, Services, Software, Your Content, Limopedia Content, any email or other communication generated or sent through the Services, or any breach of this Agreement. Limopedia will provide You with notice of any such claim or allegation, and Limopedia will have the right to participate in the defense of any such claim at its expense.</li>
+              </ol>
+            </li>
+            <li><strong>Limitation on Liability. </strong>IN NO EVENT WILL LIMOPEDIA BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, HOWEVERCAUSED, UNDER ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE), ARISING IN ANY WAY INCONNECTION WITH OR OUT OF THE USE OF THE SITES, SERVICES (OR ANY LIMOPEDIA CONTENT PROVIDED THROUGH THE SITES OR SERVICES), EVEN IF LIMOPEDIA BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, INCLUDING, WITHOUT LIMITATION, ANY LOSS OF DATA, OPPORTUNITY, REVENUES OR PROFITS, BUSINESS INTERRUPTION, OR PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES. LIMOPEDIA’S TOTAL CUMULATIVE LIABILITY IN CONNECTION WITH THIS AGREEMENT AND ALL SERVICES PROVIDED UNDER THIS AGREEMENT, WHETHER IN CONTRACT OR TORT OR OTHERWISE, WILL NOT EXCEED THE FEES PAID TO LIMOPEDIA HEREUNDER IN THE 1 MONTH PRECEDING ANY SUCH INITIAL OCCURRENCE OF LIABILITY (OR, IF NO SUCH FEES HAVE BEEN PAID, $10). YOU AGREE THAT THEFEES REFLECT THE ALLOCATION OF RISK SET FORTH IN THIS AGREEMENT AND ACKNOWLEDGE THAT LIMOPEDIA WOULD NOT ENTER INTO THIS AGREEMENT WITHOUT THESE LIMITATIONS ON ITS LIABILITY. IN JURISDICTIONS WHERE LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES IS NOT PERMITTED, LIMOPEDIA’S LIABILITY IS LIMITED TO THE MAXIMUM EXTENT PERMITTED BY LAW.</li>
+            <li><strong>Data Privacy</strong>. In respect of Your use of the Site and Services and in relation to any personally identifiable and other data and information You provide to Limopedia through the Site and Services, You expressly consent to the use and disclosure of that data and information as described in Limopedia’s then-current privacy policy displayed on the Site (“<strong>Privacy Policy</strong>") Notwithstanding anything in the Privacy Policy, Limopedia will have the right to collect, extract, compile, synthesize, and analyze non-personally identifiable data or information (data or information that does not identify an entity or natural person as the source thereof) resulting from Your access to the Site and Your use and operation of the Services (including, by way of example and not limitation, information relating to volumes, frequencies, recipients, bounce rates, or any other information regarding the email and other communications You generate and send using the Services). To the extent any such non-personally identifiable data or information is collected or generated by Limopedia, the data and information will be solely owned by Limopedia and may be used by Limopedia for any lawful business purpose without a duty of accounting to You, provided that the data and information is used only in an aggregated form, without directly identifying You, any User or customer, or any other entity or natural person as the source thereof. In relation to all “personal data” (as defined by Directive 95/46/EC, which also defines the terms “processing”, “data controller” and “data processor”) of European Union data subjects provided or disclosed to Limopedia by You or on Your behalf, Limopedia:
+              <ol>
+                <li>17.1 shall process such data only in accordance with Your instructions and in compliance with all applicable laws relating to data protection</li>
+                <li>17.2 shall operate appropriate technical and organizational measures to protect against unauthorized or unlawful processing of such data and against accidental loss or destruction of, or damage to, such data;</li>
+                <li>17.3 shall not, without Your prior written consent, transfer such data to a country or territory outside the European Economic Area ("EEA") other than to Limopedia in the US (subject to clause 17.4); and</li>
+                <li>17.4 warrants and represents to You that Limopedia is and will remain throughout the term of this Agreement a member of the EU-US Safe Harbor arrangement.</li>
+              </ol>
+            </li>
+            <li><strong>Confidentiality</strong>. For purposes of this Agreement, “Confidential Information” means all nonpublic information disclosed or made available under this Agreement that relates to the Technology, the provision or receipt of the Services, or either party’s technology, finances, operations, customers or business. For the avoidance of doubt, (1) the Services, Technology, and Limopedia Content are the Confidential Information of Limopedia, (2) all data regarding Your email recipients, including without limitation, identities and email addresses in case Limopedia is hosting the application are our Confidential Information, and (3) the data and information specified in Section 17 will not be Your Confidential Information. Each party agrees to protect the other party’s Confidential Information with the degree of care that such party uses to protect its own confidential information of like nature, but in no case less than reasonable care. Each party agrees that, except as expressly directed by the other party, it will not at any time during or after the term of this Agreement: (1) disclose any Confidential Information to any third party; (2) permit any third party to examine and/or make copies of any reports, documents or electronic data containing Confidential Information; or (3) use any of the Confidential Information for any reason other than for the purposes of this Agreement. Each party may disclose Confidential Information to personnel having a need to receive the Confidential Information in the performance of their duties under this Agreement, provided, however, that such personnel are informed of the confidentiality obligations hereunder and each party uses its best efforts to ensure their compliance therewith. If either party is required to disclose the other party’s Confidential Information pursuant to any statute, regulation, order, subpoena or document discovery request, it will furnish written notice of such disclosure to the other party as soon as practicable in order to afford such party the opportunity to seek a protective order and the party required to make such disclosure will reasonably cooperate in such efforts (at the other party’s reasonable expense). In the event of any conflict between the Privacy Policy and the provisions of this Section 18, the provisions of this Section 18 shall control.</li>
+            <li><strong>Claims of Infringement</strong>. Just as Limopedia requires users of the Site to respect the copyrights and other intellectual property rights of Limopedia, its affiliates, and other third parties, Limopedia respects the copyrights and other intellectual property rights of Users of the Site and other third parties. If You believe in good faith that Your copyrighted work has been reproduced on the Site without authorization in a way that constitutes copyright infringement, You may notify our designated copyright agent by Email to:info@limopedia.com</li>
+            <li><strong>Linked Sites</strong>. The Site and communications sent through the Services may contain links to third-party sites that are not under the control of Limopedia, and Limopedia is not responsible for any content on any linked site. If you access a third-party site from the Site or from a communication sent through the Services, then you do so at your own risk. Limopedia provides links only as a convenience, and the inclusion of the link does not imply that Limopedia endorses or accepts any responsibility for the content on those third-party sites. Limopedia welcomes links to the Site. You may establish a link to this Site, provided that the link does not state or imply any sponsorship or endorsement of Your site by Limopedia or any group or individual affiliated with Limopedia. You may not use on your site any Content or Marks appearing on the Site in establishing the link. You may not frame or otherwise incorporate into another site the Content or other materials on the Site without prior written consent.</li>
+            <li><strong>DISPUTES</strong>. Except as otherwise provided below, the parties will attempt to resolve all disputes, controversies, or claims arising under, out of, or relating to this Agreement, including the formation, validity, binding effect, interpretation, performance, breach or termination, of this Agreement and the arbitrability of the issues submitted to arbitration hereunder and non-contractual claims relating to this Agreement (each, a “<strong>Dispute</strong>”), in accordance with the procedures set forth in this Section 21. If any Dispute cannot be resolved through negotiations between the parties within 5 days of notice from one party to the other of the Dispute, such Dispute will be finally settled through binding arbitration under the arbitration of the International Chamber of Commerce (“<strong>ICC</strong>”) then in effect (the “<strong>Rules</strong>”). Either party may commence the arbitration by delivering a request for arbitration as specified in the Rules. The arbitration will be conducted before a sole neutral arbitrator selected by agreement of the parties. If the parties cannot agree on the appointment of a single arbitrator within 30 days (the “<strong>Initial Period</strong>”) after either party to this Agreement delivers a request for arbitration, a neutral arbitrator will be selected as provided in the Rules. The arbitration will be conducted exclusively in the English language at a site specified by Limopedia in West Palm Beach, Florida U.S.A. The award of the arbitrator will be the exclusive remedy of the parties for all claims, counterclaims, issues or accountings presented or plead to the arbitrator. The award of the arbitrators will require payment of the costs, fees and expenses incurred by the prevailing party in any such arbitration by the non-prevailing party. Judgment upon the award may be entered in any court or governmental body having jurisdiction thereof. Any additional costs, fees or expenses incurred in enforcing the award may be charged against the party that resists its enforcement.</li>
+            <li><strong>GOVERNING LAW</strong>. The interpretation of the rights and obligations of the parties under this Agreement, including, to the extent applicable, any negotiations, arbitrations or other proceedings hereunder, will be governed in all respects exclusively by the laws of the State of Florida, U.S.A. as such laws apply to contracts between Florida residents performed entirely within Florida. Each party agrees that it will only bring any action or proceeding arising from or relating to this Agreement in a federal court in the District of Florida, U.S.A. or in state court in West Palm Beach, Florida U.S.A., and You irrevocably submit to the personal jurisdiction and venue of any such court in any such action or proceeding or in any action or proceeding brought in such courts by Limopedia.</li>
+            <li><strong>General</strong>. If any provision of this Agreement is held to be unenforceable, that provision will be removed to the extent necessary to comply with the law, replaced by a provision that most closely approximates the original intent and economic effect of the original to the extent consistent with the law, and the remaining provisions will remain in full force. The prevailing party in any lawsuit or proceeding arising from or related to this Agreement will be entitled to receive its costs, expert witness fees and reasonable attorneys’ fees, including costs and fees on appeal. Neither this Agreement nor any rights or obligations of You hereunder may be assigned or transferred by You (in whole or in part and including by sale, merger or operation of law) without the prior written approval of Limopedia. Any assignment in violation of the foregoing will be null and void. Limopedia may assign this Agreement to any party that assumes Limopedia’s obligations hereunder. The parties hereto are independent parties, not agents, employees or employers of the other or joint ventures, and neither acquires hereunder any right or ability to bind or enter into any obligation on behalf of the other. This Agreement is the complete and exclusive statement of the agreement between the parties with respect to the subject matter of this Agreement, and this Agreement supersedes any proposal or prior agreement, oral or written, and any other communications between the parties in relation to the subject matter of this Agreement. Limopedia may reference You as a user of the Services and use Your name and logo, as applicable, in listings of users of the Services appearing on the Limopedia web site and for other marketing and promotional purposes relating to the Services.</li>
+          </ol>
+				</div>
+			</div>
+    </div>
+  </section>
+
+<footer>
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 footer-links footer-links-navi">
+					<a class="external" href="index.php#nav-header" class="active">Home</a>•
+					<a class="external" href="index.php#nav-about">About Us</a>•
+					<a class="external" href="index.php#nav-features">Features</a>•
+					<a class="external" href="pricing.php">Pricing</a>•
+					<a class="external" href="index.php#nav-contact">Contact Us</a>
+				</div>
+				<!-- /.footer-links -->
+			</div>
+			<!-- /.row -->
+			<div class="row">
+				<div class="col-md-12 col-sm-12 social">
+					<h3>Let’s Socialize!</h3>
+					<a href="http://www.facebook.com/limopedia" class="facebook">Facebook</a>
+					<a href="http://www.twitter.com/limopedia" class="twitter">Twitter</a>
+					<a href="http://www.linkedin.com/company/5043565" class="linkedin">LinkedIn</a>
+				</div>
+				<!-- /.social -->
+			</div>
+			<!-- /.row -->
+			<div class="row">
+				<div class="col-md-12 col-sm-12 call text-center">
+					Or call us for more information
+					<span>866-491-8508</span>
+				</div>
+				<!-- /.col-md-12 -->
+			</div>
+			<!-- /.row -->
+			
+
+		</div>
+		<!-- /.container -->
+		<div class="privacy">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12 col-sm-12">
+						&copy; 2013 |
+						<a href="privacy.php">Privacy Policy</a> All Rights Reserved
+					</div>
+					<!-- /.col-md-12 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!-- /.privacy -->
+	</footer>
+	<!-- /footer -->
+
+	<!-- za Scripts -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.pagenav.min.js"></script>
+  <script src="js/limopedia.js"></script>
+</body>
+</html>
+<!--
+   _      _                                _ _       
+  | |    (_)                              | (_)      
+  | |     _ _ __ ___   ___  _ __   ___  __| |_  __ _ 
+  | |    | | '_ ` _ \ / _ \| '_ \ / _ \/ _` | |/ _` |
+  | |____| | | | | | | (_) | |_) |  __/ (_| | | (_| |
+  |______|_|_| |_| |_|\___/| .__/ \___|\__,_|_|\__,_|
+                           | |                       
+                           |_|                       
+-->

@@ -1,0 +1,1059 @@
+@font-face {
+	font-family: 'PictoPro-Outline';
+	src:url('fonts/PictoPro-Outline.eot');
+	src:url('fonts/PictoPro-Outline.eot?#iefix') format('embedded-opentype'),
+		url('fonts/PictoPro-Outline.woff') format('woff'),
+		url('fonts/PictoPro-Outline.ttf') format('truetype'),
+		url('fonts/PictoPro-Outline.svg#PictoPro-Outline') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'PictoPro-Outline';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-outline-wizard-wand, .icon-outline-wireframe-three-columns, .icon-outline-wireframe-matrix, .icon-outline-wireframe-lines, .icon-outline-wireframe-horizontal-vertical-columns, .icon-outline-wine-cup, .icon-outline-wine-bottles, .icon-outline-wine-bottle-cup, .icon-outline-wifi, .icon-outline-web-camera, .icon-outline-watches, .icon-outline-warning, .icon-outline-wallet, .icon-outline-volume-slider, .icon-outline-usb, .icon-outline-up-down-arrow, .icon-outline-unlock, .icon-outline-umbrella-rain, .icon-outline-umbrella, .icon-outline-twitter, .icon-outline-trurn-off, .icon-outline-truck, .icon-outline-trhee-leafy, .icon-outline-tree-conifer, .icon-outline-train, .icon-outline-thumb-up, .icon-outline-thumb-down, .icon-outline-thermometer-low, .icon-outline-thermometer-high, .icon-outline-test-tube, .icon-outline-television, .icon-outline-technology-screen-size, .icon-outline-technology-screen-resolution, .icon-outline-technology-processor, .icon-outline-technology-memory, .icon-outline-technology-internal-memory, .icon-outline-teapot, .icon-outline-tag, .icon-outline-sun-thin, .icon-outline-sun-cloud-thin, .icon-outline-sun-cloud, .icon-outline-sun, .icon-outline-stop-watch, .icon-outline-steering-wheel, .icon-outline-star-plus, .icon-outline-star-minus, .icon-outline-star, .icon-outline-stamp, .icon-outline-speaker-sound, .icon-outline-speaker-mute, .icon-outline-speaker, .icon-outline-socket, .icon-outline-snowflake, .icon-outline-smile-sad, .icon-outline-smile-laugh, .icon-outline-smile-happy, .icon-outline-smartphone-qwerty, .icon-outline-smartphone, .icon-outline-school-ring, .icon-outline-shirt, .icon-outline-ship, .icon-outline-shield, .icon-outline-share, .icon-outline-script, .icon-outline-scissors, .icon-outline-rss, .icon-outline-rows, .icon-outline-right-arrow-small, .icon-outline-right-arrow-circle, .icon-outline-right-arrow, .icon-outline-ribbon, .icon-outline-retina, .icon-outline-refresh, .icon-outline-recycle-bin, .icon-outline-rectangle-up-arrow, .icon-outline-rays, .icon-outline-radio-button-unchecked, .icon-outline-radio-button-checked, .icon-outline-radio, .icon-outline-quotes, .icon-outline-question-mark, .icon-outline-quatrefoil, .icon-outline-puzzle-plus, .icon-outline-puzzle, .icon-outline-pushchair, .icon-outline-profile-rays, .icon-outline-profile-plus, .icon-outline-profile-pipe, .icon-outline-profile-minus, .icon-outline-profile-male, .icon-outline-profile-checkbox, .icon-outline-profile-female, .icon-outline-profile-cross, .icon-outline-printer, .icon-outline-pointer-plus, .icon-outline-pointer-pin, .icon-outline-pointer-minus, .icon-outline-pointer, .icon-outline-plus, .icon-outline-plug, .icon-outline-play-circle, .icon-outline-pin, .icon-outline-piggy-bank, .icon-outline-photo-camera, .icon-outline-phone-circle, .icon-outline-percent, .icon-outline-pen-tip, .icon-outline-pencil-ruler, .icon-outline-pencil, .icon-outline-pen, .icon-outline-pants, .icon-outline-paint-brush, .icon-outline-pacman, .icon-outline-order, .icon-outline-orange-slice, .icon-outline-note-simple, .icon-outline-note-double, .icon-outline-notebook, .icon-outline-new-window, .icon-outline-newspaper, .icon-outline-network, .icon-outline-music-player, .icon-outline-movie-disk, .icon-outline-mouse, .icon-outline-mountains, .icon-outline-mobile-phone, .icon-outline-minus, .icon-outline-microphone-stand, .icon-outline-microphone, .icon-outline-message-two-bubbles, .icon-outline-message-bubble-text, .icon-outline-message-bubbles-rounded, .icon-outline-message-bubbles, .icon-outline-message-bubble-rounded, .icon-outline-message-bubble-plus, .icon-outline-message-bubble-minus, .icon-outline-message-bubble-cloud, .icon-outline-message-bubble, .icon-outline-megaphone, .icon-outline-mark-pipe, .icon-outline-mark-male, .icon-outline-mark-female, .icon-outline-mark-cross, .icon-outline-map-pointer, .icon-outline-map, .icon-outline-mail-open, .icon-outline-mail, .icon-outline-magnifier-plus, .icon-outline-magnifier-minus, .icon-outline-magnifier-circle, .icon-outline-magnifier, .icon-outline-luggage, .icon-outline-loop-tape, .icon-outline-loop, .icon-outline-lock, .icon-outline-link, .icon-outline-light-bulb-rays, .icon-outline-light-bulb, .icon-outline-left-arrow-small, .icon-outline-left-arrow-circle, .icon-outline-left-arrow, .icon-outline-leaf, .icon-outline-lcd, .icon-outline-knob-volume, .icon-outline-knob, .icon-outline-key-old, .icon-outline-keyboard, .icon-outline-key, .icon-outline-information-sign, .icon-outline-information, .icon-outline-infinitive, .icon-outline-inbox, .icon-outline-image, .icon-outline-id-card, .icon-outline-chef-hat, .icon-outline-checkbox-unchecked, .icon-outline-checkbox-checked, .icon-outline-house, .icon-outline-high-definition, .icon-outline-heart-rounded, .icon-outline-heart-plus, .icon-outline-heart-minus, .icon-outline-heart, .icon-outline-headphones-microphone, .icon-outline-headphones, .icon-outline-hat, .icon-outline-guitar, .icon-outline-group-two, .icon-outline-group-three, .icon-outline-graph-uptrend, .icon-outline-graph-random, .icon-outline-graph-downtrend, .icon-outline-graph-cake-quarter, .icon-outline-graph-cake, .icon-outline-globe, .icon-outline-glasses-stripes, .icon-outline-glasses-old, .icon-outline-glasses, .icon-outline-gamepad, .icon-outline-full-screen, .icon-outline-four-rectangle, .icon-outline-folder-zipp, .icon-outline-folder-up-arrow, .icon-outline-folder-ribbon, .icon-outline-folder-plus, .icon-outline-folder-open, .icon-outline-folder-minus, .icon-outline-folder-locker, .icon-outline-folder-down-arrow, .icon-outline-folder, .icon-outline-floppy-disc, .icon-outline-float-wheel, .icon-outline-flash-power, .icon-outline-flash, .icon-outline-flame, .icon-outline-flag, .icon-outline-first-aid, .icon-outline-filter, .icon-outline-film, .icon-outline-file-xls, .icon-outline-file-text, .icon-outline-file-scrap, .icon-outline-file-right-arrow, .icon-outline-file-plus, .icon-outline-file-pencil, .icon-outline-file-pdf, .icon-outline-file-odf, .icon-outline-file-minus, .icon-outline-file-left-arrow, .icon-outline-file-heart, .icon-outline-file-doc, .icon-outline-file-cross, .icon-outline-file-copy, .icon-outline-file, .icon-outline-facebook, .icon-outline-eye-dropper, .icon-outline-eye, .icon-outline-exclamation-mark, .icon-outline-equalizer, .icon-outline-eco-light-bulb, .icon-outline-drums, .icon-outline-drop, .icon-outline-drink, .icon-outline-drag-area, .icon-outline-download, .icon-outline-door-out, .icon-outline-door-in, .icon-outline-divider, .icon-outline-disabled, .icon-outline-director-chair, .icon-outline-directional-board, .icon-outline-dashboard, .icon-outline-cursor-type, .icon-outline-cursor-scale-up, .icon-outline-cursor-scale-down, .icon-outline-cursor-scale-45-right, .icon-outline-cursor-scale-45-left, .icon-outline-cursor-move, .icon-outline-cursor-hand, .icon-outline-cursor, .icon-outline-currency-euro, .icon-outline-currency-dollar, .icon-outline-cup-coffee, .icon-outline-crosshair, .icon-outline-credit-card, .icon-outline-copyright, .icon-outline-control-stop, .icon-outline-control-rewind, .icon-outline-control-previous, .icon-outline-control-play, .icon-outline-control-pause, .icon-outline-control-next, .icon-outline-control-forward, .icon-outline-computer-case, .icon-outline-compass, .icon-outline-compact-disc, .icon-outline-command, .icon-outline-collage-hat, .icon-outline-coins, .icon-outline-cog-wheel, .icon-outline-code-end, .icon-outline-code-begin, .icon-outline-cloud-up-arrow, .icon-outline-clouds-thin, .icon-outline-clouds-rain-thin, .icon-outline-clouds-flash-thin, .icon-outline-cloud-music, .icon-outline-cloud-down-arrow, .icon-outline-cloud, .icon-outline-clock-sand, .icon-outline-clock, .icon-outline-clipboard, .icon-outline-circle-plus-small, .icon-outline-circle-plus, .icon-outline-circle-pipe, .icon-outline-circle-minus-small, .icon-outline-circle-minus, .icon-outline-circle-information, .icon-outline-circle-cross-small, .icon-outline-circle-cross, .icon-outline-center-position, .icon-outline-cart-up-arrow, .icon-outline-cart-plus, .icon-outline-cart-minus, .icon-outline-cart-down-arrow, .icon-outline-cart, .icon-outline-card-green, .icon-outline-car, .icon-outline-cap-winner, .icon-outline-capsule, .icon-outline-camera, .icon-outline-calendar-month, .icon-outline-calendar-day, .icon-outline-calculator, .icon-outline-cake, .icon-outline-bus, .icon-outline-box-plus, .icon-outline-box-closed, .icon-outline-box, .icon-outline-book-2, .icon-outline-book, .icon-outline-bone, .icon-outline-bluetooth, .icon-outline-bird-fly, .icon-outline-bird, .icon-outline-bell, .icon-outline-battery-half, .icon-outline-battery-full, .icon-outline-bank, .icon-outline-badge-star, .icon-outline-badge-sale, .icon-outline-badge-ribbon, .icon-outline-badge, .icon-outline-backspace, .icon-outline-assembly-key-screwdriver, .icon-outline-assembly-key, .icon-outline-apple, .icon-outline-alternative, .icon-outline-alarm-clock, .icon-outline-air-plane {
+	font-family: 'PictoPro-Outline';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-outline-wizard-wand:before {
+	content: "\21";
+}
+.icon-outline-wireframe-three-columns:before {
+	content: "\22";
+}
+.icon-outline-wireframe-matrix:before {
+	content: "\23";
+}
+.icon-outline-wireframe-lines:before {
+	content: "\24";
+}
+.icon-outline-wireframe-horizontal-vertical-columns:before {
+	content: "\25";
+}
+.icon-outline-wine-cup:before {
+	content: "\26";
+}
+.icon-outline-wine-bottles:before {
+	content: "\27";
+}
+.icon-outline-wine-bottle-cup:before {
+	content: "\28";
+}
+.icon-outline-wifi:before {
+	content: "\29";
+}
+.icon-outline-web-camera:before {
+	content: "\2a";
+}
+.icon-outline-watches:before {
+	content: "\2b";
+}
+.icon-outline-warning:before {
+	content: "\2c";
+}
+.icon-outline-wallet:before {
+	content: "\2d";
+}
+.icon-outline-volume-slider:before {
+	content: "\2e";
+}
+.icon-outline-usb:before {
+	content: "\2f";
+}
+.icon-outline-up-down-arrow:before {
+	content: "\30";
+}
+.icon-outline-unlock:before {
+	content: "\31";
+}
+.icon-outline-umbrella-rain:before {
+	content: "\32";
+}
+.icon-outline-umbrella:before {
+	content: "\33";
+}
+.icon-outline-twitter:before {
+	content: "\34";
+}
+.icon-outline-trurn-off:before {
+	content: "\35";
+}
+.icon-outline-truck:before {
+	content: "\36";
+}
+.icon-outline-trhee-leafy:before {
+	content: "\37";
+}
+.icon-outline-tree-conifer:before {
+	content: "\38";
+}
+.icon-outline-train:before {
+	content: "\39";
+}
+.icon-outline-thumb-up:before {
+	content: "\3a";
+}
+.icon-outline-thumb-down:before {
+	content: "\3b";
+}
+.icon-outline-thermometer-low:before {
+	content: "\3c";
+}
+.icon-outline-thermometer-high:before {
+	content: "\3d";
+}
+.icon-outline-test-tube:before {
+	content: "\3e";
+}
+.icon-outline-television:before {
+	content: "\3f";
+}
+.icon-outline-technology-screen-size:before {
+	content: "\40";
+}
+.icon-outline-technology-screen-resolution:before {
+	content: "\41";
+}
+.icon-outline-technology-processor:before {
+	content: "\42";
+}
+.icon-outline-technology-memory:before {
+	content: "\43";
+}
+.icon-outline-technology-internal-memory:before {
+	content: "\44";
+}
+.icon-outline-teapot:before {
+	content: "\45";
+}
+.icon-outline-tag:before {
+	content: "\46";
+}
+.icon-outline-sun-thin:before {
+	content: "\47";
+}
+.icon-outline-sun-cloud-thin:before {
+	content: "\48";
+}
+.icon-outline-sun-cloud:before {
+	content: "\49";
+}
+.icon-outline-sun:before {
+	content: "\4a";
+}
+.icon-outline-stop-watch:before {
+	content: "\4b";
+}
+.icon-outline-steering-wheel:before {
+	content: "\4c";
+}
+.icon-outline-star-plus:before {
+	content: "\4d";
+}
+.icon-outline-star-minus:before {
+	content: "\4e";
+}
+.icon-outline-star:before {
+	content: "\4f";
+}
+.icon-outline-stamp:before {
+	content: "\50";
+}
+.icon-outline-speaker-sound:before {
+	content: "\51";
+}
+.icon-outline-speaker-mute:before {
+	content: "\52";
+}
+.icon-outline-speaker:before {
+	content: "\53";
+}
+.icon-outline-socket:before {
+	content: "\54";
+}
+.icon-outline-snowflake:before {
+	content: "\55";
+}
+.icon-outline-smile-sad:before {
+	content: "\56";
+}
+.icon-outline-smile-laugh:before {
+	content: "\57";
+}
+.icon-outline-smile-happy:before {
+	content: "\58";
+}
+.icon-outline-smartphone-qwerty:before {
+	content: "\59";
+}
+.icon-outline-smartphone:before {
+	content: "\5a";
+}
+.icon-outline-school-ring:before {
+	content: "\5b";
+}
+.icon-outline-shirt:before {
+	content: "\5c";
+}
+.icon-outline-ship:before {
+	content: "\5d";
+}
+.icon-outline-shield:before {
+	content: "\5e";
+}
+.icon-outline-share:before {
+	content: "\5f";
+}
+.icon-outline-script:before {
+	content: "\60";
+}
+.icon-outline-scissors:before {
+	content: "\61";
+}
+.icon-outline-rss:before {
+	content: "\62";
+}
+.icon-outline-rows:before {
+	content: "\63";
+}
+.icon-outline-right-arrow-small:before {
+	content: "\64";
+}
+.icon-outline-right-arrow-circle:before {
+	content: "\65";
+}
+.icon-outline-right-arrow:before {
+	content: "\66";
+}
+.icon-outline-ribbon:before {
+	content: "\67";
+}
+.icon-outline-retina:before {
+	content: "\68";
+}
+.icon-outline-refresh:before {
+	content: "\69";
+}
+.icon-outline-recycle-bin:before {
+	content: "\6a";
+}
+.icon-outline-rectangle-up-arrow:before {
+	content: "\6b";
+}
+.icon-outline-rays:before {
+	content: "\6c";
+}
+.icon-outline-radio-button-unchecked:before {
+	content: "\6d";
+}
+.icon-outline-radio-button-checked:before {
+	content: "\6e";
+}
+.icon-outline-radio:before {
+	content: "\6f";
+}
+.icon-outline-quotes:before {
+	content: "\70";
+}
+.icon-outline-question-mark:before {
+	content: "\71";
+}
+.icon-outline-quatrefoil:before {
+	content: "\72";
+}
+.icon-outline-puzzle-plus:before {
+	content: "\73";
+}
+.icon-outline-puzzle:before {
+	content: "\74";
+}
+.icon-outline-pushchair:before {
+	content: "\75";
+}
+.icon-outline-profile-rays:before {
+	content: "\76";
+}
+.icon-outline-profile-plus:before {
+	content: "\77";
+}
+.icon-outline-profile-pipe:before {
+	content: "\78";
+}
+.icon-outline-profile-minus:before {
+	content: "\79";
+}
+.icon-outline-profile-male:before {
+	content: "\7a";
+}
+.icon-outline-profile-checkbox:before {
+	content: "\7b";
+}
+.icon-outline-profile-female:before {
+	content: "\7c";
+}
+.icon-outline-profile-cross:before {
+	content: "\7d";
+}
+.icon-outline-printer:before {
+	content: "\7e";
+}
+.icon-outline-pointer-plus:before {
+	content: "\e000";
+}
+.icon-outline-pointer-pin:before {
+	content: "\e001";
+}
+.icon-outline-pointer-minus:before {
+	content: "\e002";
+}
+.icon-outline-pointer:before {
+	content: "\e003";
+}
+.icon-outline-plus:before {
+	content: "\e004";
+}
+.icon-outline-plug:before {
+	content: "\e005";
+}
+.icon-outline-play-circle:before {
+	content: "\e006";
+}
+.icon-outline-pin:before {
+	content: "\e007";
+}
+.icon-outline-piggy-bank:before {
+	content: "\e008";
+}
+.icon-outline-photo-camera:before {
+	content: "\e009";
+}
+.icon-outline-phone-circle:before {
+	content: "\e00a";
+}
+.icon-outline-percent:before {
+	content: "\e00b";
+}
+.icon-outline-pen-tip:before {
+	content: "\e00c";
+}
+.icon-outline-pencil-ruler:before {
+	content: "\e00d";
+}
+.icon-outline-pencil:before {
+	content: "\e00e";
+}
+.icon-outline-pen:before {
+	content: "\e00f";
+}
+.icon-outline-pants:before {
+	content: "\e010";
+}
+.icon-outline-paint-brush:before {
+	content: "\e011";
+}
+.icon-outline-pacman:before {
+	content: "\e012";
+}
+.icon-outline-order:before {
+	content: "\e013";
+}
+.icon-outline-orange-slice:before {
+	content: "\e014";
+}
+.icon-outline-note-simple:before {
+	content: "\e015";
+}
+.icon-outline-note-double:before {
+	content: "\e016";
+}
+.icon-outline-notebook:before {
+	content: "\e017";
+}
+.icon-outline-new-window:before {
+	content: "\e018";
+}
+.icon-outline-newspaper:before {
+	content: "\e019";
+}
+.icon-outline-network:before {
+	content: "\e01a";
+}
+.icon-outline-music-player:before {
+	content: "\e01b";
+}
+.icon-outline-movie-disk:before {
+	content: "\e01c";
+}
+.icon-outline-mouse:before {
+	content: "\e01d";
+}
+.icon-outline-mountains:before {
+	content: "\e01e";
+}
+.icon-outline-mobile-phone:before {
+	content: "\e01f";
+}
+.icon-outline-minus:before {
+	content: "\e020";
+}
+.icon-outline-microphone-stand:before {
+	content: "\e021";
+}
+.icon-outline-microphone:before {
+	content: "\e022";
+}
+.icon-outline-message-two-bubbles:before {
+	content: "\e023";
+}
+.icon-outline-message-bubble-text:before {
+	content: "\e024";
+}
+.icon-outline-message-bubbles-rounded:before {
+	content: "\e025";
+}
+.icon-outline-message-bubbles:before {
+	content: "\e026";
+}
+.icon-outline-message-bubble-rounded:before {
+	content: "\e027";
+}
+.icon-outline-message-bubble-plus:before {
+	content: "\e028";
+}
+.icon-outline-message-bubble-minus:before {
+	content: "\e029";
+}
+.icon-outline-message-bubble-cloud:before {
+	content: "\e02a";
+}
+.icon-outline-message-bubble:before {
+	content: "\e02b";
+}
+.icon-outline-megaphone:before {
+	content: "\e02c";
+}
+.icon-outline-mark-pipe:before {
+	content: "\e02d";
+}
+.icon-outline-mark-male:before {
+	content: "\e02e";
+}
+.icon-outline-mark-female:before {
+	content: "\e02f";
+}
+.icon-outline-mark-cross:before {
+	content: "\e030";
+}
+.icon-outline-map-pointer:before {
+	content: "\e031";
+}
+.icon-outline-map:before {
+	content: "\e032";
+}
+.icon-outline-mail-open:before {
+	content: "\e033";
+}
+.icon-outline-mail:before {
+	content: "\e034";
+}
+.icon-outline-magnifier-plus:before {
+	content: "\e035";
+}
+.icon-outline-magnifier-minus:before {
+	content: "\e036";
+}
+.icon-outline-magnifier-circle:before {
+	content: "\e037";
+}
+.icon-outline-magnifier:before {
+	content: "\e038";
+}
+.icon-outline-luggage:before {
+	content: "\e039";
+}
+.icon-outline-loop-tape:before {
+	content: "\e03a";
+}
+.icon-outline-loop:before {
+	content: "\e03b";
+}
+.icon-outline-lock:before {
+	content: "\e03c";
+}
+.icon-outline-link:before {
+	content: "\e03d";
+}
+.icon-outline-light-bulb-rays:before {
+	content: "\e03e";
+}
+.icon-outline-light-bulb:before {
+	content: "\e03f";
+}
+.icon-outline-left-arrow-small:before {
+	content: "\e040";
+}
+.icon-outline-left-arrow-circle:before {
+	content: "\e041";
+}
+.icon-outline-left-arrow:before {
+	content: "\e042";
+}
+.icon-outline-leaf:before {
+	content: "\e043";
+}
+.icon-outline-lcd:before {
+	content: "\e044";
+}
+.icon-outline-knob-volume:before {
+	content: "\e045";
+}
+.icon-outline-knob:before {
+	content: "\e046";
+}
+.icon-outline-key-old:before {
+	content: "\e047";
+}
+.icon-outline-keyboard:before {
+	content: "\e048";
+}
+.icon-outline-key:before {
+	content: "\e049";
+}
+.icon-outline-information-sign:before {
+	content: "\e04a";
+}
+.icon-outline-information:before {
+	content: "\e04b";
+}
+.icon-outline-infinitive:before {
+	content: "\e04c";
+}
+.icon-outline-inbox:before {
+	content: "\e04d";
+}
+.icon-outline-image:before {
+	content: "\e04e";
+}
+.icon-outline-id-card:before {
+	content: "\e04f";
+}
+.icon-outline-chef-hat:before {
+	content: "\e050";
+}
+.icon-outline-checkbox-unchecked:before {
+	content: "\e051";
+}
+.icon-outline-checkbox-checked:before {
+	content: "\e052";
+}
+.icon-outline-house:before {
+	content: "\e053";
+}
+.icon-outline-high-definition:before {
+	content: "\e054";
+}
+.icon-outline-heart-rounded:before {
+	content: "\e055";
+}
+.icon-outline-heart-plus:before {
+	content: "\e056";
+}
+.icon-outline-heart-minus:before {
+	content: "\e057";
+}
+.icon-outline-heart:before {
+	content: "\e058";
+}
+.icon-outline-headphones-microphone:before {
+	content: "\e059";
+}
+.icon-outline-headphones:before {
+	content: "\e05a";
+}
+.icon-outline-hat:before {
+	content: "\e05b";
+}
+.icon-outline-guitar:before {
+	content: "\e05c";
+}
+.icon-outline-group-two:before {
+	content: "\e05d";
+}
+.icon-outline-group-three:before {
+	content: "\e05e";
+}
+.icon-outline-graph-uptrend:before {
+	content: "\e05f";
+}
+.icon-outline-graph-random:before {
+	content: "\e060";
+}
+.icon-outline-graph-downtrend:before {
+	content: "\e061";
+}
+.icon-outline-graph-cake-quarter:before {
+	content: "\e062";
+}
+.icon-outline-graph-cake:before {
+	content: "\e063";
+}
+.icon-outline-globe:before {
+	content: "\e064";
+}
+.icon-outline-glasses-stripes:before {
+	content: "\e065";
+}
+.icon-outline-glasses-old:before {
+	content: "\e066";
+}
+.icon-outline-glasses:before {
+	content: "\e067";
+}
+.icon-outline-gamepad:before {
+	content: "\e068";
+}
+.icon-outline-full-screen:before {
+	content: "\e069";
+}
+.icon-outline-four-rectangle:before {
+	content: "\e06a";
+}
+.icon-outline-folder-zipp:before {
+	content: "\e06b";
+}
+.icon-outline-folder-up-arrow:before {
+	content: "\e06c";
+}
+.icon-outline-folder-ribbon:before {
+	content: "\e06d";
+}
+.icon-outline-folder-plus:before {
+	content: "\e06e";
+}
+.icon-outline-folder-open:before {
+	content: "\e06f";
+}
+.icon-outline-folder-minus:before {
+	content: "\e070";
+}
+.icon-outline-folder-locker:before {
+	content: "\e071";
+}
+.icon-outline-folder-down-arrow:before {
+	content: "\e072";
+}
+.icon-outline-folder:before {
+	content: "\e073";
+}
+.icon-outline-floppy-disc:before {
+	content: "\e074";
+}
+.icon-outline-float-wheel:before {
+	content: "\e075";
+}
+.icon-outline-flash-power:before {
+	content: "\e076";
+}
+.icon-outline-flash:before {
+	content: "\e077";
+}
+.icon-outline-flame:before {
+	content: "\e078";
+}
+.icon-outline-flag:before {
+	content: "\e079";
+}
+.icon-outline-first-aid:before {
+	content: "\e07a";
+}
+.icon-outline-filter:before {
+	content: "\e07b";
+}
+.icon-outline-film:before {
+	content: "\e07c";
+}
+.icon-outline-file-xls:before {
+	content: "\e07d";
+}
+.icon-outline-file-text:before {
+	content: "\e07e";
+}
+.icon-outline-file-scrap:before {
+	content: "\e07f";
+}
+.icon-outline-file-right-arrow:before {
+	content: "\e080";
+}
+.icon-outline-file-plus:before {
+	content: "\e081";
+}
+.icon-outline-file-pencil:before {
+	content: "\e082";
+}
+.icon-outline-file-pdf:before {
+	content: "\e083";
+}
+.icon-outline-file-odf:before {
+	content: "\e084";
+}
+.icon-outline-file-minus:before {
+	content: "\e085";
+}
+.icon-outline-file-left-arrow:before {
+	content: "\e086";
+}
+.icon-outline-file-heart:before {
+	content: "\e087";
+}
+.icon-outline-file-doc:before {
+	content: "\e088";
+}
+.icon-outline-file-cross:before {
+	content: "\e089";
+}
+.icon-outline-file-copy:before {
+	content: "\e08a";
+}
+.icon-outline-file:before {
+	content: "\e08b";
+}
+.icon-outline-facebook:before {
+	content: "\e08c";
+}
+.icon-outline-eye-dropper:before {
+	content: "\e08d";
+}
+.icon-outline-eye:before {
+	content: "\e08e";
+}
+.icon-outline-exclamation-mark:before {
+	content: "\e08f";
+}
+.icon-outline-equalizer:before {
+	content: "\e090";
+}
+.icon-outline-eco-light-bulb:before {
+	content: "\e091";
+}
+.icon-outline-drums:before {
+	content: "\e092";
+}
+.icon-outline-drop:before {
+	content: "\e093";
+}
+.icon-outline-drink:before {
+	content: "\e094";
+}
+.icon-outline-drag-area:before {
+	content: "\e095";
+}
+.icon-outline-download:before {
+	content: "\e096";
+}
+.icon-outline-door-out:before {
+	content: "\e097";
+}
+.icon-outline-door-in:before {
+	content: "\e098";
+}
+.icon-outline-divider:before {
+	content: "\e099";
+}
+.icon-outline-disabled:before {
+	content: "\e09a";
+}
+.icon-outline-director-chair:before {
+	content: "\e09b";
+}
+.icon-outline-directional-board:before {
+	content: "\e09c";
+}
+.icon-outline-dashboard:before {
+	content: "\e09d";
+}
+.icon-outline-cursor-type:before {
+	content: "\e09e";
+}
+.icon-outline-cursor-scale-up:before {
+	content: "\e09f";
+}
+.icon-outline-cursor-scale-down:before {
+	content: "\e0a0";
+}
+.icon-outline-cursor-scale-45-right:before {
+	content: "\e0a1";
+}
+.icon-outline-cursor-scale-45-left:before {
+	content: "\e0a2";
+}
+.icon-outline-cursor-move:before {
+	content: "\e0a3";
+}
+.icon-outline-cursor-hand:before {
+	content: "\e0a4";
+}
+.icon-outline-cursor:before {
+	content: "\e0a5";
+}
+.icon-outline-currency-euro:before {
+	content: "\e0a6";
+}
+.icon-outline-currency-dollar:before {
+	content: "\e0a7";
+}
+.icon-outline-cup-coffee:before {
+	content: "\e0a8";
+}
+.icon-outline-crosshair:before {
+	content: "\e0a9";
+}
+.icon-outline-credit-card:before {
+	content: "\e0aa";
+}
+.icon-outline-copyright:before {
+	content: "\e0ab";
+}
+.icon-outline-control-stop:before {
+	content: "\e0ac";
+}
+.icon-outline-control-rewind:before {
+	content: "\e0ad";
+}
+.icon-outline-control-previous:before {
+	content: "\e0ae";
+}
+.icon-outline-control-play:before {
+	content: "\e0af";
+}
+.icon-outline-control-pause:before {
+	content: "\e0b0";
+}
+.icon-outline-control-next:before {
+	content: "\e0b1";
+}
+.icon-outline-control-forward:before {
+	content: "\e0b2";
+}
+.icon-outline-computer-case:before {
+	content: "\e0b3";
+}
+.icon-outline-compass:before {
+	content: "\e0b4";
+}
+.icon-outline-compact-disc:before {
+	content: "\e0b5";
+}
+.icon-outline-command:before {
+	content: "\e0b6";
+}
+.icon-outline-collage-hat:before {
+	content: "\e0b7";
+}
+.icon-outline-coins:before {
+	content: "\e0b8";
+}
+.icon-outline-cog-wheel:before {
+	content: "\e0b9";
+}
+.icon-outline-code-end:before {
+	content: "\e0ba";
+}
+.icon-outline-code-begin:before {
+	content: "\e0bb";
+}
+.icon-outline-cloud-up-arrow:before {
+	content: "\e0bc";
+}
+.icon-outline-clouds-thin:before {
+	content: "\e0bd";
+}
+.icon-outline-clouds-rain-thin:before {
+	content: "\e0be";
+}
+.icon-outline-clouds-flash-thin:before {
+	content: "\e0bf";
+}
+.icon-outline-cloud-music:before {
+	content: "\e0c0";
+}
+.icon-outline-cloud-down-arrow:before {
+	content: "\e0c1";
+}
+.icon-outline-cloud:before {
+	content: "\e0c2";
+}
+.icon-outline-clock-sand:before {
+	content: "\e0c3";
+}
+.icon-outline-clock:before {
+	content: "\e0c4";
+}
+.icon-outline-clipboard:before {
+	content: "\e0c5";
+}
+.icon-outline-circle-plus-small:before {
+	content: "\e0c6";
+}
+.icon-outline-circle-plus:before {
+	content: "\e0c7";
+}
+.icon-outline-circle-pipe:before {
+	content: "\e0c8";
+}
+.icon-outline-circle-minus-small:before {
+	content: "\e0c9";
+}
+.icon-outline-circle-minus:before {
+	content: "\e0ca";
+}
+.icon-outline-circle-information:before {
+	content: "\e0cb";
+}
+.icon-outline-circle-cross-small:before {
+	content: "\e0cc";
+}
+.icon-outline-circle-cross:before {
+	content: "\e0cd";
+}
+.icon-outline-center-position:before {
+	content: "\e0ce";
+}
+.icon-outline-cart-up-arrow:before {
+	content: "\e0cf";
+}
+.icon-outline-cart-plus:before {
+	content: "\e0d0";
+}
+.icon-outline-cart-minus:before {
+	content: "\e0d1";
+}
+.icon-outline-cart-down-arrow:before {
+	content: "\e0d2";
+}
+.icon-outline-cart:before {
+	content: "\e0d3";
+}
+.icon-outline-card-green:before {
+	content: "\e0d4";
+}
+.icon-outline-car:before {
+	content: "\e0d5";
+}
+.icon-outline-cap-winner:before {
+	content: "\e0d6";
+}
+.icon-outline-capsule:before {
+	content: "\e0d7";
+}
+.icon-outline-camera:before {
+	content: "\e0d8";
+}
+.icon-outline-calendar-month:before {
+	content: "\e0d9";
+}
+.icon-outline-calendar-day:before {
+	content: "\e0da";
+}
+.icon-outline-calculator:before {
+	content: "\e0db";
+}
+.icon-outline-cake:before {
+	content: "\e0dc";
+}
+.icon-outline-bus:before {
+	content: "\e0dd";
+}
+.icon-outline-box-plus:before {
+	content: "\e0de";
+}
+.icon-outline-box-closed:before {
+	content: "\e0df";
+}
+.icon-outline-box:before {
+	content: "\e0e0";
+}
+.icon-outline-book-2:before {
+	content: "\e0e1";
+}
+.icon-outline-book:before {
+	content: "\e0e2";
+}
+.icon-outline-bone:before {
+	content: "\e0e3";
+}
+.icon-outline-bluetooth:before {
+	content: "\e0e4";
+}
+.icon-outline-bird-fly:before {
+	content: "\e0e5";
+}
+.icon-outline-bird:before {
+	content: "\e0e6";
+}
+.icon-outline-bell:before {
+	content: "\e0e7";
+}
+.icon-outline-battery-half:before {
+	content: "\e0e8";
+}
+.icon-outline-battery-full:before {
+	content: "\e0e9";
+}
+.icon-outline-bank:before {
+	content: "\e0ea";
+}
+.icon-outline-badge-star:before {
+	content: "\e0eb";
+}
+.icon-outline-badge-sale:before {
+	content: "\e0ec";
+}
+.icon-outline-badge-ribbon:before {
+	content: "\e0ed";
+}
+.icon-outline-badge:before {
+	content: "\e0ee";
+}
+.icon-outline-backspace:before {
+	content: "\e0ef";
+}
+.icon-outline-assembly-key-screwdriver:before {
+	content: "\e0f0";
+}
+.icon-outline-assembly-key:before {
+	content: "\e0f1";
+}
+.icon-outline-apple:before {
+	content: "\e0f2";
+}
+.icon-outline-alternative:before {
+	content: "\e0f3";
+}
+.icon-outline-alarm-clock:before {
+	content: "\e0f4";
+}
+.icon-outline-air-plane:before {
+	content: "\e0f5";
+}

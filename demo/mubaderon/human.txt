@@ -1,0 +1,13 @@
+/* TEAM */
+	Fron-end Developer: Hashem Zahran.
+	Contact: hezahran[at]gmail.com
+	Twitter: @HEZahran
+	From: Alexandria, Egypt.
+
+/* THANKS */
+
+/* SITE */
+	Last update: January 22nd, 2014
+	Standards: HTML5, CSS3
+	Components: Bootstrap, jQuery
+	Software: Photoshop, Brakets

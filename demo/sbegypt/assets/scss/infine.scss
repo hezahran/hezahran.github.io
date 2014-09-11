@@ -1,0 +1,79 @@
+@import 'compass/css3/border-radius';
+@import 'compass/css3/box-shadow';
+@import 'compass/css3/box-sizing';
+@import 'compass/css3/text-shadow';
+@import 'compass/css3/transition';
+
+@import 'helpers/variables';
+@import 'helpers/navigation';
+@import 'helpers/parallax';
+@import 'helpers/header';
+@import 'helpers/content';
+@import 'helpers/subscribe';
+@import 'helpers/speakers';
+@import 'helpers/pricing';
+@import 'helpers/features';
+@import 'helpers/testimonials';
+@import 'helpers/partners';
+@import 'helpers/footer';
+
+
+body { -webkit-font-smoothing: antialiased; font-size: 14px; font-family: 'Arial', sans-serif; line-height: 20px;   }
+
+a { transition: all 0.2s ease; }
+h1, h2, h3, h4, h5, h6 { font-family: $font-family-default; }
+h1 { font-size: 72px; font-weight: lighter; padding-bottom: 10px;}
+h2 { font-size: 36px; font-weight: lighter; margin: 0px; padding-top: 50px; text-align:center; }
+h2.page-header { border: 0px; color: $color-dark; font-weight: lighter; }
+h3 { font-size: 24px; font-weight: lighter; }
+h4 { color: #898989; font-size: 18px; font-weight: normal; text-align: center; }
+h5 { font-size: 14px; font-weight: normal; }
+hr { margin: 0px 0px; }
+textarea, input { -webkit-font-smoothing: antialiased; font-family: $font-family-default; }
+iframe { border: 0px; }
+
+[class^="icon-"], [class*=" icon-"] { background-image: none !important;  }
+.center 																	    { text-align: center; }
+.has-options																	{ position: relative; }
+.video																			{ height: 431px; margin-top: 30px; width: 770px; }
+
+.cycle-pager { text-align: center; width: 100%; z-index: 500; position: absolute; bottom: 60px; overflow: hidden;
+	span { cursor: pointer; font-family: $font-family-standard; font-size: 70px; width: 35px; height: 20px; display: inline-block; color: rgba(0,0,0,0.2); cursor: pointer; transition: all 0.1s ease;
+		&:hover { color: rgba(0,0,0,0.4); }
+		&.cycle-pager-active { color: rgba(0,0,0,0.6); }		
+	}
+}
+
+.tp-bullets.simplebullets.round {
+	.bullet { @include border-radius(50%); @include transition(background-color .1s ease); background-color: rgba(0,0,0,0.2); background-image: none; cursor: pointer; font-family: $font-family-standard; font-size: 70px; width: 35px; height: 20px; display: inline-block; color: rgba(0,0,0,0.2); cursor: pointer; height: 20px; margin: 0px 6px; width: 20px; 
+		&:hover { background-color: rgba(0,0,0,0.4); }
+		&.selected { background-color: rgba(0,0,0,0.6); }		
+	}
+	.tparrows { display: none; }
+}
+
+.thumbnails { margin-bottom: 100px;
+  .thumbnail { @include border-radius(5px); @include box-shadow(none); padding: 10px; text-align: center;
+    h3 { font-size: 24px; font-weight: lighter; margin-bottom: 0px; text-align: left; }
+    img { @include border-radius(3px); @include box-sizing(border-box); border: 6px solid $color-dark; }
+  }
+}
+
+#map { height: 425px; }
+
+@media (max-width: 767px) {
+  #map { margin-left: -20px; margin-right: -20px; }
+}
+
+.success { color: #fff; display: none; font-family: $font-family-default; font-size: 18px; text-align: center;  
+  .icon { color: #8ef58e; font-size: 32px; margin-bottom: 20px; margin-top: 20px; }
+}
+
+.btn-start { @include border-radius(40px); @include box-shadow(none); @include transition(background .2s linear); @include text-shadow(none); background-color: $color-primary; background-image: none; border: 0px; font-family: $font-family-default; font-size: 24px; padding: 20px 30px; 
+	i { font-size: 40px; margin: 0px 20px; vertical-align: middle; }
+	&:focus, &:active, &:hover { @include box-shadow(none); @include transition(background .2s linear); background-color: darken($color-primary, 10%); }
+}
+
+.clock-done { display: none; 
+	p { font-family: $font-family-default; font-size: 125px; line-height: 125px; margin-bottom: 30px; text-align: center; }
+}

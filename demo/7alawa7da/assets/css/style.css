@@ -1,0 +1,117 @@
+/*!
+	7alaWa7da CSS v1.0
+	----------------------------------------------------------
+ 	Copyright (c) 2012, 7alawa7da.com. All rights reserved.
+ 	Coded and Authored with all the love in the world.
+	
+	CSS Author				::	Hashem Zahran		||	@antikano
+	Made with love at	::	Cloud7labs.com	||	@Cloud7labs
+------------------------------------------------------------------------------- */
+
+/*-- Custom Fonts
+------------------------------------------------------------------------------- */
+@font-face{font-family:'UthmanTN1Bv9';src:url('../fonts/UthmanTN1Bv9.otf')}
+
+/*-- Global Selectors
+------------------------------------------------------------------------------- */
+*{outline:0}
+
+/*-- Basic Styling
+------------------------------------------------------------------------------- */
+body,td,th{color:#666;font-family:'UthmanTN1Bv9', Tahoma, Geneva, sans-serif;font-size:16px}
+body{background:#fff}
+a,a:link,a:visited,a:active{color:#378aa1;outline:0;text-decoration:none}
+a:link{-webkit-tap-highlight-color:#fcd700}
+a:hover{color:#378aa1;text-decoration:underline}
+h1,h2,h3,h4,h5,h6{color:#29829a;font-family:'UthmanTN1Bv9', Tahoma, Geneva, sans-serif}
+h1{font-size:2em;margin:.67em 0}
+h2{font-size:1.4em;margin:.75em 0}
+h3{font-size:1.17em;margin:.83em 0}
+h4{margin:1.12em 0}
+h5{font-size:.83em;margin:1.5em 0}
+h6{font-size:.75em;margin:1.67em 0}
+
+/*-- Scaffolding
+------------------------------------------------------------------------------- */
+.btn-subscribe{background-color:#d7440a;background-image:-moz-linear-gradient(top, #fba265, #d7440a);background-image:-ms-linear-gradient(top, #fba265, #d7440a);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#fba265), to(#d7440a));background-image:-webkit-linear-gradient(top, #fba265, #d7440a);background-image:-o-linear-gradient(top, #fba265, #d7440a);background-image:linear-gradient(top, #fba265, #d7440a);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fba265', endColorstr='#d7440a', GradientType=0);border-color:#e3833b #c4682c #974016 #b15722;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);text-shadow:0 -1px 0 rgba(0, 0, 0, 0.19);color:#fff;font-family:'UthmanTN1Bv9', Tahoma, Geneva, sans-serif}
+.btn-subscribe:hover,.btn-subscribe:active,.btn-subscribe.active,.btn-subscribe.disabled,.btn-subscribe[disabled]{background-color:#d7440a;color:#fff}
+.btn-subscribe:active, .btn-subscribe.active{background-color: #039 \9}
+.progress{border-radius:10px;background-color:#e5eaeb;background-image:none;box-shadow:0 0;margin-bottom:0}
+.progress-default .bar{background-color:#d7440a;background-image:-moz-linear-gradient(top, #fba265, #d7440a);background-image:-ms-linear-gradient(top, #fba265, #d7440a);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#fba265), to(#d7440a));background-image:-webkit-linear-gradient(top, #fba265, #d7440a);background-image:-o-linear-gradient(top, #fba265, #d7440a);background-image:linear-gradient(top, #fba265, #d7440a);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fba265', endColorstr='#d7440a', GradientType=0);border-radius:10px}
+.span25th{width:180px}
+.offsethalfleft{margin-right:50px}
+.offsethalfright{margin-right:50px}
+/*-- Macifying
+------------------------------------------------------------------------------- */
+.hide-text{font-size:0;line-height:0;text-indent:-10000px}
+::-moz-selection{background:#f1efc1;color:#cb9240;text-shadow:none}
+::selection{background:#f1efc1;color:#cb9240;text-shadow:none}
+:-moz-placeholder{color:#666}
+::-webkit-input-placeholder{color:#666}
+ins{background:#fcd700;color:#000;text-decoration:none}
+mark{background:#fcd700;color:#000;font-style:italic;font-weight:700}
+legend + .control-group{margin-top:9px}
+
+/*-- Main Elements
+------------------------------------------------------------------------------- */
+.wrapper{background:url(../img/bg_clouds.png) no-repeat top center}
+header{padding:25px 0}
+footer{background:url(../img/bg_footer.png) no-repeat top center;padding:15px}
+
+/*-- Header Elements
+------------------------------------------------------------------------------- */
+/*- Logo - */
+header .logo h1,header .logo h1 a{background:url(../img/logo.png) no-repeat;display:block;height:70px;width:92px}
+/*- Navigation - */
+.navigation,.social{padding-top:30px;text-shadow:0 -1px 0 #6b9bb2}
+.social{padding-top:35px}
+.navigation .nav,.social .nav{margin-bottom:0}
+.navigation .nav > li > a,.social .nav > li > a{color:#f6f6f6}
+.navigation .nav > li > a:hover,.navigation .nav-pills .active > a,.navigation .nav-pills .active > a:hover,.social .nav-pills .active > a,.social .nav-pills .active > a:hover{background:none; color:#fff}
+.social .nav li a{background:url(../img/social.png) no-repeat;border-radius:0;height:21px;margin:0 5px;padding:0;width:21px}
+.social .nav > li:first-child a{margin:0 0 0 5px}
+.social .nav li a.facebook{background-position:-62px 0}
+.social .nav li a.gplus{background-position:-31px 0}
+/*- Newsletter - */
+.newsletter{float:left}
+.newsletter form{margin:0}
+.newsletter form label{color:#fff}
+
+/*-- Content Elements
+------------------------------------------------------------------------------- */
+.content-wrapper{background:url(../img/bg_wrapper.png) no-repeat top center;padding:0.75em 0 0}
+.content .container.case{width:880px}
+.content p{font-family:Tahoma, Geneva, sans-serif;line-height:180%}
+.content p.title{font-size:0.8em}
+.content .media{background:url(../img/media-shadow.png) no-repeat bottom center;padding-bottom:75px;padding-top:25px;text-align:center}
+.content .media .share{color:#999;font-size:0.8em;padding:10px 0;text-align:right}
+.content .btn.big{font-size:1.1em;padding:5px 73px}
+.content .read-more{padding-top:14px}
+.content .donation-details{margin-top:0.75em;position:relative}
+.content .share-text,.content .share-icons{float:right}
+	.content .share-icons .nav li a{background:url(../img/socia-share.png) no-repeat;border-radius:0; height:20px; margin:0 5px; padding:0}
+		.content .share-icons .nav > li:first-child a{margin:0 10px 0 5px}
+		.content .share-icons li a.facebook{background-position:-42px 0; width:48px}
+		.content .share-icons li a.gplus{background-position:0 0; width:32px}
+		.content .share-icons li a.twitter{background-position:-100px 0; width:59px}
+.content .donated span,.content .remaining span{font-size:1.1em;margin-left:5px}
+.content .remaining span{color:#e2581b}
+.content .donated span:first-child,.content .remaining span:first-child{display:block} 
+.content .donated span.count,.content .remaining span.count{font-family:Arial, Helvetica, sans-serif; font-weight:700;font-size:2em}
+/*- flip-counter -*/
+#flip-container{position:relative;padding:0 20px}
+#flip-container div.set{float:left}
+#flip-container p{text-align:center;margin:0}
+#flip-container ul{list-style-type:none;height:50px;padding:0;margin:0}
+#flip-container li{float:left;background:url(../img/digits_9-0.png) 0 0 no-repeat;width:36px;height:50px}
+#flip-container li#s0, #flip-container li#m0{background:url(../img/digits_5-0.png) 0 0 no-repeat}
+#flip-container li#h0{background:url(../img/digits_2-0.png) 0 0 no-repeat}
+#flip-container li.comma{background:url(../img/comma.png) 2px 38px no-repeat;width:12px}
+#flip-container div.separator{float:left;-height:50px;padding:5px;font:25px Arial, sans-serif}
+
+/*-- Footer Elements
+------------------------------------------------------------------------------- */
+footer .navigation{padding:0}
+footer .navigation .nav > li > a,footer .navigation .nav > li > a:hover,footer .navigation .nav-pills .active > a,footer .navigation .nav-pills .active > a:hover{color:#666;text-shadow:0 -1px 0 #fff}
+footer .newsletter form label{color:#666}
+

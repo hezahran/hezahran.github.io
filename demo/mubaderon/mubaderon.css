@@ -1,0 +1,52 @@
+
+.landing {
+	background-image:url(img/background.jpg);
+	background-position:top center;
+	background-repeat:no-repeat;
+	position:relative;
+	margin:0
+}
+
+.logo {
+	background-image:url(img/logo.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+	width:520px;
+	height:350px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-175px;
+	margin-left:-260px;
+	text-indent:-99999px
+	
+}
+
+footer {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	padding-bottom:10px;
+	color:#ffffff
+}
+
+.social {
+	color: #ffffff;
+	font-size:1.2em
+}
+.social a:hover{
+  text-decoration: none !important;
+}
+a:hover.facebook{
+	color:#3b5998
+}
+a:hover.twitter{
+	color:#55acee
+}
+a:hover.google{
+	color:#dd4b39
+}
+a:hover.youtube{
+	color:#cd201f
+}

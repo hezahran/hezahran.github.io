@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+blockquote {
+  border-right:5px solid #eee;
+  border-left:0px;
+  font-family: 'Droid Arabic Kufi', serif;
+  line-height: 1.8
+}
+blockquote footer {
+  color: #eee;
+}
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+.navbar-brand {
+  font-family: 'Droid Arabic Kufi', serif;
+}
+html {
+  position: relative;
+
+}
+html,
+body {
+  height: 100%;
+  background: transparent url('bg.jpg') center center no-repeat;
+}
+body {
+  color: #fff;
+  text-align: right;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer p{
+  margin: 20px 0;
+}
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+} 
