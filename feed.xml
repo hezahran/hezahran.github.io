@@ -6,8 +6,8 @@
 </description>
     <link>http://hezahran.com/</link>
     <atom:link href="http://hezahran.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Sep 2014 21:20:35 +0300</pubDate>
-    <lastBuildDate>Mon, 08 Sep 2014 21:20:35 +0300</lastBuildDate>
+    <pubDate>Wed, 10 Sep 2014 14:55:28 +0300</pubDate>
+    <lastBuildDate>Wed, 10 Sep 2014 14:55:28 +0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -166,7 +166,7 @@ To stop the server simply press &lt;code&gt;Ctrl + C&lt;/code&gt; …&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/img/post-attachments/hecreek_colors.png&quot; alt=&quot;HECreek Colors&quot; /&gt;
 - Then let’s put all those elements together in our logo, and voila…&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/post-attachments/hecreek_logo.png&quot; alt=&quot;HECreek logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/portfolio/hecreek/&quot;&gt;&lt;img src=&quot;/assets/img/post-attachments/hecreek_logo.png&quot; alt=&quot;HECreek logo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
