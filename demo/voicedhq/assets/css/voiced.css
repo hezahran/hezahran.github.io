@@ -1,0 +1,120 @@
+/*
+ Voiced CSS v1.0
+ ----------------------------------------------------------
+	 Copyright (c) 2014, Tabshora.com. All rights reserved.
+	 Coded and Authored with all the love in the world.
+	 Coder: Hashem Zahran @antikano || @hezahran
+ ------------------------------------------------------------*/
+
+/*-- Custom Fonts
+ -------------------------------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Arvo|Montserrat|Roboto:300,400);
+
+/*-- Basic Styles
+ -------------------------------------------------------------------------------*/
+body {font-family:'Arvo', Georgia, "Times New Roman", Times, serif; background:#ffffff; margin:0; padding:0; color:rgb(71, 74, 84)}
+h1, h2, h3, h4, h5, h6{font-family:'Montserrat', Arial, Helvetica, sans-serif; line-height:1.5}
+section, article.separator{background-image:url(../img/separator.png); background-position: center top; background-repeat:no-repeat}
+a{color:rgb(80,190,130)}
+	a:focus, a:hover{color:rgb(80,160,130)}
+article p{font-size:1.2em; line-height:1.6}
+	article.separator p{font-size:1.4em; line-height:1.8}
+/*-- Macfying
+ -------------------------------------------------------------------------------*/
+a {outline:none !important}
+.display{font-size:10em;line-height: 1.4}
+/*-- Scafolding
+ -------------------------------------------------------------------------------*/
+.btn-signup{background-color:rgb(255,255,255); border-color:rgb(255,255,255); color:rgb(80,190,130); font-family:'Roboto', Arial, Helvetica, sans-serif; font-weight:400}
+	.btn-signup:hover, .btn-signup:focus, .btn-signup:active, .btn-signup.active, .open .dropdown-toggle.btn-signup{background-color:rgba(255,255,255,0.95); border-color:rgba(255,255,255,0.95); color:rgb(80,190,130)}
+.btn-account{background-color:rgb(50,150,100); border:0px; color:rgb(255,255,255); font-family: 'Roboto', 'Open Sans', Arial, sans-serif; font-weight:400;border-bottom:3px solid rgba(50,100,50,0.3)}
+	.btn-account:hover, .btn-account:focus, .btn-account:active, .btn-account.active{background-color:rgb(50,150,100); border-color:rgba(50,150,100,0.8); color:rgba(255,255,255,0.9);border-top:inset 3px solid rgb(80,190,130)}
+.btn-voiced{background-color:rgb(80,190,130); border:0px; color:rgb(255,255,255); font-family: 'Roboto', 'Open Sans', Arial, sans-serif; font-weight:400;border-bottom:3px solid rgba(50,100,50,0.3)}
+	.btn-voiced:hover, .btn-voiced:focus, .btn-voiced:active, .btn-voiced.active{background-color:rgb(80,190,130); border-color:rgba(80,190,130,0.8); color:rgba(255,255,255,0.9);border-top:inset 3px solid rgb(80,190,130)}
+	.btn-voiced:active{bottom:-1px;}
+	.btn-lg{padding:10px;}
+h3 .fa{color:rgb(180, 180, 180)}
+
+/*-- Header Elements
+ -------------------------------------------------------------------------------*/
+header { padding-top:20px;padding-bottom:20px;}
+	header .logo {background:transparent url(../img/voiced-logo.png) 0 0 no-repeat; width:180px; height:40px; text-indent:-9999px}
+	header.navbar{background:rgba(80,190,130,1);border:0px; border-bottom:1px solid rgba(0,0,0,0.1);box-shadow:0 0 1px	 rgba(255,255,255,0.3)}
+		.navbar-nav{padding-top:3px}
+ 		header.navbar-default .navbar-nav > li > a, header.navbar-default .navbar-nav > li > a:focus{font-family: 'Roboto', 'Open Sans', Arial, sans-serif; color:rgb(255,255,255); padding:6px 12px; font-weight:400}
+			header.navbar-default .navbar-nav > li > a:hover{color:rgba(255,255,255,0.8)}
+			header .dropdown-menu > li > a{font-family: 'Roboto', 'Open Sans', Arial, sans-serif; color:rgb(71, 74, 84); font-weight:300;}
+				header .dropdown-menu > li > a:hover{background:transparent; color: rgb(80,190,130)}
+			header.navbar-default .navbar-nav > li > a.current, header.navbar-default .navbar-nav > li > a.current:focus, header.navbar-default .navbar-nav > li > a.current:hover{color:rgba(255,255,255,1); background:rgba(0,0,0,0.2); border-radius:4px;}
+			header.nav .open > a, header.nav .open > a:hover, header.nav .open > a:focus, header.navbar-default .navbar-nav > .open > a, header.navbar-default .navbar-nav > .open > a:hover, header.navbar-default .navbar-nav > .open > a:focus{background:transparent; color:rgb(255,255,255)}
+			.navbar .nav>li>.dropdown-menu:before{content:''; display:inline-block; border-left:7px solid transparent; border-right:7px solid transparent; border-bottom:7px solid #ccc; border-bottom-color:#ffffff; position:absolute; top:-7px; left:9px}
+			header .navbar-right .dropdown-menu {left:10px;right:auto; box-shadow:0 3px 5px rgba(0, 0, 0, 0.176); min-width:140px}
+			.navbar-nav > li > .dropdown-menu {border-top-right-radius:4px; border-top-left-radius:4px; margin-top:5px;}
+			
+/*-- Index-Intro Elements
+ -------------------------------------------------------------------------------*/
+.index-intro{background-color:rgb(80,190,130); color:rgb(255,255,255);margin-top:80px; padding-top:120px;padding-bottom:120px;background-image:url(../img/demo.gif); background-position:bottom right}
+	.index-intro .container .jumbotron{background:transparent; color:rgb(255,255,255)}
+		.index-intro .container .jumbotron h1{font-size:2.5em; line-height:1.5}
+		.index-intro .container .jumbotron .label{font-size:85%; border-radius:1em; font-weight:normal}
+		.index-intro .container .jumbotron .label-os{background:rgba(255,255,255,0.2)}
+		.index-intro .container .jumbotron .label-os:hover{background:rgba(0,0,0,0.2)}
+		.index-intro .container .jumbotron form, .index-register form{margin-top:30px; font-family: 'Roboto', 'Open Sans', Arial, sans-serif; font-weight:400}
+	
+/*-- Features Elements
+ -------------------------------------------------------------------------------*/
+.index-features{padding-top:80px; padding-bottom:80px}
+	.index-features h3{font-size:2em}
+.learnmore:after{content:' »'}
+
+/*-- Reasons Elements
+ -------------------------------------------------------------------------------*/
+.index-reasons{padding-top:80px; padding-bottom:80px; background-color:rgb(243, 245, 247); color:#858585}
+	.index-reasons h2, .index-pricing h2, .index-register h2{color:rgb(80,190,130);font-size: 3em}
+	.index-reasons article.separator{padding-top:80px; margin-top:40px}
+	.index-reasons article.first{margin-top:80px}
+	.index-reasons h3{color:rgb(80,190,130);font-size: 2.5em}
+
+/*-- Pricing Elements
+ -------------------------------------------------------------------------------*/
+.index-pricing{padding-top:80px; padding-bottom:80px}
+
+
+/*-- Testmonials Elements
+ -------------------------------------------------------------------------------*/
+.index-testmonials{padding-top:80px; padding-bottom:80px; background-color:rgb(243, 245, 247)}
+.index-testmonials .carousel-indicators{bottom:-40px}
+.index-testmonials .carousel-indicators li{border-color:#B4B4B4}
+.index-testmonials .carousel-indicators .active{background-color:#B4B4B4}
+
+/*-- Contact Us Elements
+ -------------------------------------------------------------------------------*/
+.index-contact{padding-top:80px;font-family: 'Roboto', 'Open Sans', Arial, sans-serif; font-weight:400}
+.index-contact p{font-size:1.2em;margin:0px;padding-left:2em}
+.index-contact address{line-height:30px}
+.index-contact .fa{font-size:1.5em;width:1.5em}
+.index-contact .title{font-size:1.4em}
+.index-contact .title.mobile-contact{padding-left:40px}
+.index-contact .e-mail{font-size:1.4em;text-decoration:underline;outline:none}
+.index-contact .text{font-size:1.4em}
+.index-contact .footer-form input[type="email"],.index-contact .footer-form input[type="text"],.index-contact .footer-form textarea{-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;border-radius:3px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;background-color:rgba(255,255,255,0.2);border:2px solid rgba(0,0,0,0.1);height:50px;color:rgba(0,0,0,0.7);font-size:1.2em;margin:0px;padding:8px 20px 10px 35px;resize:none;width:100%}
+.index-contact .footer-form input[type="email"]:hover,.index-contact .footer-form input[type="text"]:hover,.index-contact .footer-form textarea:hover{border:2px solid rgba(0,0,0,0.2)}
+.index-contact .footer-form input[type="email"]:focus,.index-contact .footer-form input[type="text"]:focus,.index-contact .footer-form textarea:focus{border:2px solid rgba(0,0,0,0.2)}
+.index-contact .footer-form textarea{height:200px}
+.index-contact .footer-form .control-group{margin-bottom:30px;position:relative}
+.index-contact .footer-form .fa{color:rgba(0,0,0,0.2);font-size:24px;left:15px;position:absolute;top:16px}
+.index-contact .footer-form .btn-send{-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;-webkit-transition:all 0.1s ease;-moz-transition:all 0.1s ease;-o-transition:all 0.1s ease;transition:all 0.1s ease;background-color:#ff7e5b;color:white;float:right;font-family:"Open Sans","Arial",sans-serif;font-size:18px;font-weight:bold;text-decoration:none;outline:none;padding:15px 20px;position:relative}
+.index-contact .footer-form .btn-send:hover{color:#fff}
+.index-contact .footer-form .btn-send:active{bottom:-1px;color:#fff}
+.index-contact .footer-form .form-actions{background-color:transparent;border-top:0px;margin-bottom:0px;margin-top:0px;padding:0px}
+#map-canvas{height:425px;margin-top:40px}
+
+/*-- Footer Elements
+ -------------------------------------------------------------------------------*/
+footer{padding-top:80px; padding-bottom:80px;}
+	footer a, footer .copyright{font-family: 'Roboto', 'Open Sans', Arial, sans-serif; font-weight:300; color:rgb(71, 74, 84)}
+		footer a:hover{color:rgb(80,190,130); text-decoration:none}
+	footer ul{padding-left:0px}
+	footer li{list-style:none outside none; padding:3px 0}
+		footer li.facebook a:hover{color:#4c66a4}
+		footer li.twitter a:hover{color:#55acee}
