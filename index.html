@@ -108,13 +108,14 @@
 	<main id="site-intro" class="intro whitesmoke jumbotron" data-stellar-background-ratio="0.5">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-sm-10 col-xs-12">
-					<h1>Hi, I'm Hashem</h1>
-					<h2>Freelance Web UX <em class="cursive">&amp;</em> UI Developer</h2>
-					<p class="lead">Based in the beautiful Mediterranean city of Alexandria</p><!-- /.lead -->
+				<div class="col-md-6 col-sm-10 col-xs-12" itemscope itemtype="http://data-vocabulary.org/Person">
+					<h1>Hi, I'm <span itemprop="name">Hashem</span></h1>
+					<h2>Freelance <span itemprop="title">Web UX <em class="cursive">&amp;</em> UI Developer</span></h2>
+					<p class="lead">Based in the beautiful <span itemprop="address" itemscope
+    itemtype="http://data-vocabulary.org/Address"><span itemprop="region">Mediterranean</span> city of <span itemprop="locality">Alexandria</span></span></p><!-- /.lead -->
 					<div class="more-info hidden-xs">
-						<a href="#site-portfolio" class="btn btn-lg btn-brand"><i class="fa fa-fw fa-briefcase"></i> See my latest work</a>
-						<a href="#site-contact" class="btn btn-lg btn-outline"><i class="fa fa-fw fa-paper-plane"></i> Contact me</a>
+						<a href="#site-portfolio" class="btn btn-lg btn-brand" itemprop="url"><i class="fa fa-fw fa-briefcase"></i> See my latest work</a>
+						<a href="#site-contact" class="btn btn-lg btn-outline" itemprop="url"><i class="fa fa-fw fa-paper-plane"></i> Contact me</a>
 					</div><!-- /.more-info -->
 					<div class="more-info visible-xs">
 						<a href="#site-portfolio" class="btn btn-lg btn-block btn-brand"><i class="fa fa-fw fa-briefcase"></i> See my latest work</a>
