@@ -6,8 +6,8 @@
 </description>
     <link>http://hezahran.com/</link>
     <atom:link href="http://hezahran.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 12 Sep 2014 09:56:19 +0300</pubDate>
-    <lastBuildDate>Fri, 12 Sep 2014 09:56:19 +0300</lastBuildDate>
+    <pubDate>Fri, 12 Sep 2014 11:00:18 +0300</pubDate>
+    <lastBuildDate>Fri, 12 Sep 2014 11:00:18 +0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -27,7 +27,7 @@
       </item>
     
       <item>
-        <title>HECreek, Day One</title>
+        <title>HECreek, Day One - Installation</title>
         <description>&lt;p&gt;Everyday I like to explore new technologies and new tools that help me introduce the most creative and original ideas for my customers. As promised in my last post, I’ll blog my daily updates about &lt;a href=&quot;http://hecreek.com/&quot;&gt;HECreek&lt;/a&gt; development process in tutorial like posts and also as a documentation to my process… &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Day I tasks were:&lt;/strong&gt;&lt;/p&gt;
@@ -174,8 +174,8 @@ To stop the server simply press &lt;code&gt;Ctrl + C&lt;/code&gt; …&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 25 Aug 2014 15:30:43 +0300</pubDate>
-        <link>http://hezahran.com/blogs/hecreek/webdev/day-one/</link>
-        <guid isPermaLink="true">http://hezahran.com/blogs/hecreek/webdev/day-one/</guid>
+        <link>http://hezahran.com/blogs/hecreek/webdev/day-one-installation/</link>
+        <guid isPermaLink="true">http://hezahran.com/blogs/hecreek/webdev/day-one-installation/</guid>
         
         
         <category>hecreek</category>
@@ -186,7 +186,7 @@ To stop the server simply press &lt;code&gt;Ctrl + C&lt;/code&gt; …&lt;/p&gt;
     
       <item>
         <title>HECreek, The story begins!</title>
-        <description>&lt;p&gt;Well since I’m a freelancer now, I decided to create a dedicated website for a new brand sole Proprietorship company to showcase my services and past work I’ve made during the past years.&lt;/p&gt;
+        <description>&lt;p&gt;Well since I’m a freelancer now, I decided to create a dedicated website for a new brand sole Proprietorship company to showcase my services and past work I’ve made during the past years plus being a playground for new technologies I learn through out the years.&lt;/p&gt;
 
 &lt;p&gt;I went directly to &lt;a href=&quot;http://www.fatwallet.com/&quot;&gt;FatWallet&lt;/a&gt; &amp;amp; searched for &lt;a href=&quot;http://www.godaddy.com/&quot;&gt;GoDaddy&lt;/a&gt; coupons for .com domains and after getting my coupon I went to &lt;a href=&quot;http://www.namecheckr.com/&quot;&gt;NameCheckr&lt;/a&gt; to see what name could I come up with that is available on all social media accounts as well as a .com domain. and the winner was &lt;a href=&quot;http://www.hecreek.com/&quot;&gt;HECreek&lt;/a&gt;… &lt;/p&gt;
 
