@@ -6,60 +6,9 @@
 </description>
     <link>http://hezahran.com/</link>
     <atom:link href="http://hezahran.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 12 Sep 2014 11:32:14 +0300</pubDate>
-    <lastBuildDate>Fri, 12 Sep 2014 11:32:14 +0300</lastBuildDate>
+    <pubDate>Fri, 12 Sep 2014 12:09:30 +0300</pubDate>
+    <lastBuildDate>Fri, 12 Sep 2014 12:09:30 +0300</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
-    
-      <item>
-        <title>HECreek, Day Two - Scaffolding</title>
-        <description>&lt;p&gt;Now that we have our &lt;a href=&quot;/blogs/hecreek/webdev/day-one-installation/&quot;&gt;Jekyll installed and hosted over GitHub&lt;/a&gt;, It’s time to scaffold our website. First thing is to start planning website structure and url structure for all website pages. Also determining what layouts will be used for each page and how we will host blogs as well on that website.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Day II tasks were:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Planning website structure.&lt;/li&gt;
-  &lt;li&gt;Building site navigation.&lt;/li&gt;
-  &lt;li&gt;Building blog navigation.&lt;/li&gt;
-  &lt;li&gt;Bootstrapping website.&lt;/li&gt;
-  &lt;li&gt;Finalizing homepage.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;planning-website-structure&quot;&gt;1. Planning website structure:&lt;/h4&gt;
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;building-site-navigation&quot;&gt;2. Building site navigation:&lt;/h4&gt;
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;building-blog-navigation&quot;&gt;3. Building blog navigation:&lt;/h4&gt;
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;bootstrapping-website&quot;&gt;4. Bootstrapping website:&lt;/h4&gt;
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;finalizing-homepage&quot;&gt;5. Finalizing homepage:&lt;/h4&gt;
-&lt;hr /&gt;
-
-</description>
-        <pubDate>Fri, 12 Sep 2014 13:20:25 +0300</pubDate>
-        <link>http://hezahran.com/blogs/hecreek/webdev/day-two-scaffolding/</link>
-        <guid isPermaLink="true">http://hezahran.com/blogs/hecreek/webdev/day-two-scaffolding/</guid>
-        
-        
-        <category>hecreek</category>
-        
-        <category>webdev</category>
-        
-      </item>
     
       <item>
         <title>Moving to Jekyll!</title>
