@@ -1,5 +1,5 @@
 #hezahran.com:
-Personal website of Hashem Zahran, a freelance UX &amp; UI Developer based in the beautiful Mediterranean city of Alexandria.
+Personal website of Hashem Zahran, a freelance UI &amp; UX Developer based in the beautiful Mediterranean city of Alexandria.
 
 ##Legal
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
